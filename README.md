@@ -4,6 +4,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/issues)
+[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/license)
 
 </div>
 
