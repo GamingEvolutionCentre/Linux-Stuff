@@ -80,10 +80,15 @@ ConfigFile=Themes/cyberpunk.conf
 
 <div align="center">
  
-# 🚨 🚨 Questions? 🚨 🚨
+# 🚨 🚨 License 🚨 🚨
 </div>
 <br>
-- Head over to my discord link is at the top of the page.
+
+BSD 3-Clause License
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
 <div align="center">
  
@@ -91,10 +96,3 @@ ConfigFile=Themes/cyberpunk.conf
 </div>
 <br>
 - A Star on my repo would be nice.
-
-# License
-BSD 3-Clause License
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
