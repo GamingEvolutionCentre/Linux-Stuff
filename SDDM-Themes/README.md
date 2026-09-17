@@ -2,9 +2,9 @@
 
 # SDDM-Themes:
 
-[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/issues)
-[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/license)
+[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes/issues)
+[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes/license)
 
 </div>
 
