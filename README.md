@@ -2,10 +2,11 @@
 
 # GamingEvolutionCentre's Linux Stuff
 
-[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/issues)
-[![GitHub Issues](https://img.shields.io/github/forks/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/forks)
-[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Linux-Stuff/license)
+[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Linux-Stuff/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/GamingEvolutionCentre/Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Linux-Stuff/forks)
+<br>
+[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Linux-Stuff/issues)
+[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Linux-Stuff?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Linux-Stuff)
 
 </div>
 
