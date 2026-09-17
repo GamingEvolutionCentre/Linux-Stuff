@@ -26,11 +26,6 @@ This is all my linux stuff like sddm themes,tools, my setup, my configs.
 </div>
 
 ```bash
-curl -fsSL https://github.com/GamingEvolutionCentre/Linux-Stuff | sh
-```
-<br>
-
-```bash
 git clone https://github.com/GamingEvolutionCentre/Linux-Stuff.git
 cd Linux-Stuff
 ```
