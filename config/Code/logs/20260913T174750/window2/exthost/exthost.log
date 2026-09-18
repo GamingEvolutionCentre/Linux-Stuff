@@ -1,0 +1,7 @@
+2026-09-13 17:51:31.502 [info] Extension host with pid 32941 started
+2026-09-13 17:51:31.502 [info] Skipping acquiring lock for /home/darren/.config/Code/User/workspaceStorage/-53a62cd6.
+2026-09-13 17:51:32.462 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 17:51:34.191 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 17:51:35.413 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-13 17:52:06.866 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-09-13 17:52:15.878 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git

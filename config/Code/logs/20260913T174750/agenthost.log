@@ -1,0 +1,61 @@
+2026-09-13 17:48:22.790 [info] Agent Host process started successfully
+2026-09-13 17:48:23.195 [info] AgentService initialized
+2026-09-13 17:48:23.269 [info] Registering agent provider: copilotcli
+2026-09-13 17:48:23.325 [info] Registering agent provider: claude
+2026-09-13 17:48:23.432 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:48:23.449 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:48:23.809 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-13 17:48:24.016 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-b1431b2c4a69/6NMTptX-VPDR8QoCvxhbEA.sock
+2026-09-13 17:48:24.122 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 17:48:24.289 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-13 17:48:25.770 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:48:27.707 [info] [ProtocolServer] Initialize: clientId=85655595-c70a-4bb8-9b8b-f5cc5b4d7a37, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 17:48:28.618 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-13 17:48:28.620 [info] [Copilot] Listing discoverable chats...
+2026-09-13 17:48:28.627 [info] [Copilot] Starting CopilotClient...
+2026-09-13 17:48:28.638 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-13 17:48:28.665 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-13 17:48:28.743 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-13 17:48:29.551 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 17:48:40.213 [info] [Copilot] CopilotClient started successfully
+2026-09-13 17:48:40.227 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-13 17:48:40.228 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-13 17:48:52.779 [info] [Copilot] Auth token updated
+2026-09-13 17:48:53.896 [info] [ClaudeProxyService] listening on http://127.0.0.1:34323
+2026-09-13 17:48:53.897 [info] [Claude] Auth token updated
+2026-09-13 17:49:02.969 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-09-13 17:49:03.021 [info] [Copilot] Listing models...
+2026-09-13 17:49:04.943 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-13 17:49:06.556 [info] [Copilot] Found 1 models: Auto
+2026-09-13 17:51:15.962 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:51:16.191 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:51:16.219 [info] [ProtocolServer] Initialize: clientId=7b48f289-f7dc-4e72-89dd-7045da17c3f1, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 17:51:30.410 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 17:51:52.824 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:51:53.000 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:51:53.007 [info] [ProtocolServer] Initialize: clientId=6d9a78d3-a90f-4bfb-81a5-dab2bc8a3d02, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 17:51:55.942 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 17:51:58.245 [info] [ProtocolServer] Client disconnected: 6d9a78d3-a90f-4bfb-81a5-dab2bc8a3d02, subscriptions=1
+2026-09-13 17:51:58.249 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 17:52:17.871 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 17:52:20.323 [info] [ProtocolServer] Client disconnected: 7b48f289-f7dc-4e72-89dd-7045da17c3f1, subscriptions=1
+2026-09-13 17:52:20.326 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 18:42:50.362 [info] [ProtocolServer] Client disconnected: 85655595-c70a-4bb8-9b8b-f5cc5b4d7a37, subscriptions=1
+2026-09-13 18:42:50.690 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 18:43:17.557 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 18:43:25.048 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 18:43:25.113 [info] [ProtocolServer] Initialize: clientId=0d60124c-2611-4a66-84ef-c7b793b7084e, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 18:43:41.076 [info] [Claude] Auth token unchanged
+2026-09-13 18:43:41.596 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 23:38:09.347 [info] [ProtocolServer] Client disconnected: 0d60124c-2611-4a66-84ef-c7b793b7084e, subscriptions=1
+2026-09-13 23:38:11.376 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 23:38:45.964 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 23:38:46.201 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 23:38:46.497 [info] [ProtocolServer] Initialize: clientId=bf863d1e-3569-4427-b545-497da6e44b1c, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-13 23:39:05.558 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-13 23:39:05.598 [info] [AgentService] listSessions computed 0 of 0 session(s) for mode 'recent' in 1856ms (metadata 0ms, overlay 0ms, 0 state-manager fallback)
+2026-09-13 23:39:11.759 [info] [ProtocolServer] Client disconnected: bf863d1e-3569-4427-b545-497da6e44b1c, subscriptions=1
+2026-09-13 23:39:12.170 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 23:39:12.170 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-13 23:39:15.371 [info] AgentService: shutting down all providers...
+2026-09-13 23:39:15.456 [info] [Copilot] Shutting down...

@@ -1,0 +1,27 @@
+2026-09-13 22:48:40.601 [info] Getting Manifest... naumovs.color-highlight
+2026-09-13 22:48:41.057 [info] Installing extension: naumovs.color-highlight {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darren/.vscode/extensions/extensions.json","path":"/home/darren/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.137.0","date":"2026-09-08T13:43:59-07:00"}}
+2026-09-13 22:48:49.682 [info] Extension signature verification result for naumovs.color-highlight: Success. Internal Code: 0. Executed: true. Duration: 6306ms.
+2026-09-13 22:48:51.499 [info] Extracted extension to file:///home/darren/.vscode/extensions/naumovs.color-highlight-2.8.0: naumovs.color-highlight
+2026-09-13 22:48:51.919 [info] Renamed to /home/darren/.vscode/extensions/naumovs.color-highlight-2.8.0
+2026-09-13 22:48:52.300 [info] Extension installed successfully: naumovs.color-highlight vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:05:10.069 [info] Uninstalling extension from the profile: naumovs.color-highlight@2.8.0 vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:05:10.417 [info] Marked extension as removed naumovs.color-highlight-2.8.0
+2026-09-13 23:05:10.988 [info] Successfully uninstalled extension from the profile naumovs.color-highlight@2.8.0 vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:06:25.795 [info] Getting Manifest... bracketpaircolordlw.bracket-pair-color-dlw
+2026-09-13 23:06:26.626 [info] Installing extension: bracketpaircolordlw.bracket-pair-color-dlw {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darren/.vscode/extensions/extensions.json","path":"/home/darren/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.137.0","date":"2026-09-08T13:43:59-07:00"}}
+2026-09-13 23:06:34.321 [info] Extension signature verification result for bracketpaircolordlw.bracket-pair-color-dlw: Success. Internal Code: 0. Executed: true. Duration: 5808ms.
+2026-09-13 23:06:34.407 [info] Extracted extension to file:///home/darren/.vscode/extensions/bracketpaircolordlw.bracket-pair-color-dlw-0.0.6: bracketpaircolordlw.bracket-pair-color-dlw
+2026-09-13 23:06:34.456 [info] Renamed to /home/darren/.vscode/extensions/bracketpaircolordlw.bracket-pair-color-dlw-0.0.6
+2026-09-13 23:06:34.588 [info] Extension installed successfully: bracketpaircolordlw.bracket-pair-color-dlw vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:07:24.826 [info] Uninstalling extension from the profile: bracketpaircolordlw.bracket-pair-color-dlw@0.0.6 vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:07:25.017 [info] Marked extension as removed bracketpaircolordlw.bracket-pair-color-dlw-0.0.6
+2026-09-13 23:07:30.289 [info] Successfully uninstalled extension from the profile bracketpaircolordlw.bracket-pair-color-dlw@0.0.6 vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:07:45.727 [info] Getting Manifest... anseki.vscode-color
+2026-09-13 23:07:46.024 [info] Installing extension: anseki.vscode-color {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/darren/.vscode/extensions/extensions.json","path":"/home/darren/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.137.0","date":"2026-09-08T13:43:59-07:00"}}
+2026-09-13 23:07:52.755 [info] Extension signature verification result for anseki.vscode-color: Success. Internal Code: 0. Executed: true. Duration: 4653ms.
+2026-09-13 23:07:52.976 [info] Extracted extension to file:///home/darren/.vscode/extensions/anseki.vscode-color-0.4.5: anseki.vscode-color
+2026-09-13 23:07:53.049 [info] Renamed to /home/darren/.vscode/extensions/anseki.vscode-color-0.4.5
+2026-09-13 23:07:53.131 [info] Extension installed successfully: anseki.vscode-color vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:10:03.819 [info] Uninstalling extension from the profile: anseki.vscode-color@0.4.5 vscode-userdata:/home/darren/.vscode/extensions/extensions.json
+2026-09-13 23:10:03.969 [info] Marked extension as removed anseki.vscode-color-0.4.5
+2026-09-13 23:10:04.209 [info] Successfully uninstalled extension from the profile anseki.vscode-color@0.4.5 vscode-userdata:/home/darren/.vscode/extensions/extensions.json

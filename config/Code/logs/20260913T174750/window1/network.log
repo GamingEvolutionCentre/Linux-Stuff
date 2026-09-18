@@ -1,0 +1,2 @@
+2026-09-13 19:53:10.383 [error] #30: https://api.github.com/copilot_internal/managed_settings?client_id=vscode&client_version=1.137.0&copilot_runtime_version=1.0.84-canary.70.gdb75d0d.unsigned - error GET Canceled
+2026-09-13 22:48:12.541 [error] #87: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

@@ -1,0 +1,339 @@
+local config = require("copilot.config")
+local util = require("copilot.util")
+local logger = require("copilot.logger")
+local lsp = require("copilot.lsp")
+local utils = require("copilot.client.utils")
+local client_config = require("copilot.client.config")
+
+local is_disabled = false
+local setup_generation = 0
+
+---@class CopilotClient
+---@field augroup string|nil
+---@field id integer|nil
+---@field capabilities lsp.ClientCapabilities | nil
+---@field config vim.lsp.ClientConfig | nil
+---@field startup_error string | nil
+---@field initialized boolean
+---@field client_starting boolean
+---@field setup_pending boolean
+local M = {
+  augroup = nil,
+  id = nil,
+  capabilities = nil,
+  config = nil,
+  startup_error = nil,
+  initialized = false,
+  client_starting = false,
+  setup_pending = false,
+  setup_generation = 0,
+}
+
+---@param id integer
+local function store_client_id(id)
+  if M.id and M.id ~= id then
+    local client = vim.lsp.get_client_by_id(M.id)
+    if client then
+      client:stop()
+    end
+  end
+
+  M.id = id
+end
+
+function M.buf_is_attached(bufnr)
+  return M.id and vim.lsp.buf_is_attached(bufnr or 0, M.id)
+end
+
+---@param force? boolean
+---@param bufnr? integer The buffer number of which will be attached. 0 or nil for current buffer
+function M.buf_attach(force, bufnr)
+  if bufnr then
+    logger.trace("request to attach buffer #" .. tostring(bufnr))
+  end
+
+  bufnr = bufnr or vim.api.nvim_get_current_buf()
+  if bufnr == 0 then
+    bufnr = vim.api.nvim_get_current_buf()
+  end
+
+  if not vim.api.nvim_buf_is_valid(bufnr) then
+    logger.trace("buffer " .. tostring(bufnr) .. " is invalid")
+    return
+  end
+
+  if M.buf_is_attached(bufnr) then
+    logger.trace("buffer already attached")
+    return
+  end
+
+  if (not force) and util.get_buffer_attach_status(bufnr) == util.ATTACH_STATUS_MANUALLY_DETACHED then
+    logger.trace("buffer not attaching as it was manually detached")
+    return
+  end
+
+  if is_disabled then
+    logger.debug("copilot is disabled")
+    return
+  end
+
+  local should_attach, reason = util.should_attach(bufnr)
+
+  if not (force or should_attach) then
+    logger.debug("not attaching to buffer " .. tostring(bufnr) .. " based should_attach criteria: " .. reason)
+    util.set_buffer_attach_status(bufnr, util.ATTACH_STATUS_NOT_ATTACHED_PREFIX .. reason)
+    return
+  end
+
+  if not M.config then
+    if M.setup_pending then
+      logger.trace("cannot attach while configuration initialization is pending")
+    else
+      logger.error("cannot attach: configuration not initialized")
+    end
+    return
+  end
+
+  logger.trace("attaching to buffer " .. tostring(bufnr))
+
+  if not M.id then
+    M.ensure_client_started()
+  end
+
+  if not M.id then
+    logger.error("failed to start copilot client")
+    return
+  end
+
+  vim.lsp.buf_attach_client(bufnr, M.id)
+  require("copilot.suggestion").set_keymap(bufnr)
+  require("copilot.nes").set_keymap(bufnr)
+
+  util.set_buffer_previous_ft(bufnr, vim.bo[bufnr].filetype)
+  if force then
+    logger.debug("force attached to buffer " .. tostring(bufnr))
+    util.set_buffer_attach_status(bufnr, util.ATTACH_STATUS_FORCE_ATTACHED)
+  else
+    logger.trace("buffer " .. tostring(bufnr) .. " attached")
+    util.set_buffer_attach_status(bufnr, util.ATTACH_STATUS_ATTACHED)
+  end
+end
+
+---@param bufnr? integer
+function M.buf_detach_if_attached(bufnr)
+  bufnr = bufnr or vim.api.nvim_get_current_buf()
+  if M.buf_is_attached(bufnr) then
+    vim.lsp.buf_detach_client(bufnr, M.id)
+    require("copilot.suggestion").unset_keymap(bufnr)
+    require("copilot.nes").unset_keymap(bufnr)
+    util.set_buffer_attach_status(bufnr, util.ATTACH_STATUS_NOT_ATTACHED_PREFIX .. "detached")
+  end
+end
+
+---@return vim.lsp.Client|nil
+function M.get()
+  return vim.lsp.get_client_by_id(M.id)
+end
+
+---@return boolean
+function M.is_disabled()
+  return is_disabled
+end
+
+function M.ensure_client_started()
+  if M.id then
+    return
+  end
+
+  if M.client_starting then
+    logger.trace("client startup already in progress, skipping duplicate")
+    return
+  end
+
+  if is_disabled then
+    logger.debug("copilot is offline")
+    return
+  end
+
+  if not M.config then
+    M.config = client_config.create(config)
+  end
+
+  if not M.config then
+    logger.error("copilot.setup is not called yet")
+    return
+  end
+
+  M.client_starting = true
+
+  M.config.root_dir = utils.get_root_dir(config.root_dir)
+  local client_id, err = vim.lsp.start(M.config, { attach = false })
+
+  M.client_starting = false
+
+  if not client_id then
+    logger.error(string.format("error starting LSP client: %s", err))
+    return
+  end
+
+  store_client_id(client_id)
+end
+
+---@param callback fun(client:table):nil
+function M.use_client(callback)
+  local client = M.get()
+  if client then
+    callback(client)
+  end
+end
+
+---@param bufnr integer
+local function on_buf_enter(bufnr)
+  logger.trace("on_buf_enter autocmd called")
+  vim.schedule(function()
+    if not vim.api.nvim_buf_is_valid(bufnr) then
+      return
+    end
+    -- This is to handle the case where the filetype changes after the buffer is already attached,
+    -- causing the LSP to raise an error
+    local previous_ft = util.get_buffer_previous_ft(bufnr)
+    if previous_ft and vim.bo[bufnr].buflisted and (previous_ft ~= vim.bo[bufnr].filetype) then
+      logger.trace("filetype changed, detaching and re-attaching")
+      M.buf_detach_if_attached(bufnr)
+    end
+
+    M.buf_attach(false, bufnr)
+  end)
+end
+
+function M.setup()
+  logger.trace("setting up client")
+  setup_generation = setup_generation + 1
+  M.setup_generation = setup_generation
+  local generation = setup_generation
+  is_disabled = false
+  M.initialized = false
+  M.startup_error = nil
+  M.config = nil
+  M.setup_pending = true
+
+  local node_command = config.copilot_node_command
+  lsp.setup(config.server, node_command, function(err)
+    if generation ~= setup_generation or is_disabled then
+      return
+    end
+    M.setup_pending = false
+    if err then
+      M.startup_error = tostring(err)
+      is_disabled = true
+      logger.error("could not prepare copilot-language-server: " .. M.startup_error)
+      return
+    end
+
+    M.config = client_config.prepare_client_config(config.server_opts_overrides, M)
+    if not M.config then
+      M.startup_error = "could not prepare copilot client configuration"
+      return
+    end
+
+    for _, existing_client in ipairs(vim.lsp.get_clients({ name = "copilot" })) do
+      existing_client:stop(true)
+    end
+    M.id = nil
+
+    local augroup = "copilot.client"
+    vim.api.nvim_create_augroup(augroup, { clear = true })
+    M.augroup = augroup
+
+    vim.api.nvim_create_autocmd("BufEnter", {
+      group = M.augroup,
+      callback = function(args)
+        on_buf_enter((args and args.buf) or nil)
+      end,
+      desc = "[copilot] (client) buf entered",
+    })
+
+    vim.api.nvim_create_autocmd("VimLeavePre", {
+      group = M.augroup,
+      callback = function()
+        local client = vim.lsp.get_client_by_id(M.id)
+        if client then
+          client:stop()
+        end
+      end,
+      desc = "[copilot] (client) stop LSP client on exit",
+    })
+
+    local renamed_buffers = {}
+    -- The first :write uses BufWipeout/BufNew instead of BufFilePre/BufFilePost.
+    vim.api.nvim_create_autocmd({ "BufFilePre", "BufWipeout" }, {
+      group = M.augroup,
+      callback = function(args)
+        local bufnr = (args and args.buf) or nil
+        if bufnr and M.buf_is_attached(bufnr) then
+          logger.trace("buffer filename changed, detaching and re-attaching")
+          -- Flush pending changes and close the document while its old URI is still available.
+          renamed_buffers[bufnr] = args
+          M.buf_detach_if_attached(bufnr)
+          vim.schedule(function()
+            if renamed_buffers[bufnr] ~= args then
+              return
+            end
+            renamed_buffers[bufnr] = nil
+            -- A failed :file can fire BufFilePre without a matching BufFilePost.
+            if args.event == "BufFilePre" and generation == setup_generation then
+              M.buf_attach(false, bufnr)
+            end
+          end)
+        end
+      end,
+      desc = "[copilot] (client) before buffer filename changes",
+    })
+
+    vim.api.nvim_create_autocmd({ "BufFilePost", "BufNew" }, {
+      group = M.augroup,
+      callback = function(args)
+        if renamed_buffers[args.buf] then
+          renamed_buffers[args.buf] = nil
+          M.buf_attach(false, args.buf)
+        end
+      end,
+      desc = "[copilot] (client) buffer filename changed",
+    })
+
+    vim.schedule(function()
+      if generation == setup_generation and not is_disabled then
+        M.ensure_client_started()
+      end
+    end)
+    local bufnr = vim.api.nvim_get_current_buf()
+    vim.schedule(function()
+      if generation == setup_generation and not is_disabled then
+        on_buf_enter(bufnr)
+      end
+    end)
+  end)
+end
+
+function M.teardown()
+  setup_generation = setup_generation + 1
+  M.setup_generation = setup_generation
+  is_disabled = true
+  M.initialized = false
+  M.setup_pending = false
+
+  -- nvim_clear_autocmds throws an error if the group does not exist
+  if M.augroup then
+    vim.api.nvim_clear_autocmds({ group = M.augroup })
+  end
+
+  local client_id = M.id
+  M.id = nil
+  M.capabilities = nil
+  local client = vim.lsp.get_client_by_id(client_id)
+  if client then
+    client:stop()
+  end
+end
+
+return M

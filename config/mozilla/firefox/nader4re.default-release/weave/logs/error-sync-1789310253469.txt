@@ -1,0 +1,68 @@
+1789308702627	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1789308733165	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308766954	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308811646	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308884207	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308929410	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308947078	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789308992553	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309071193	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309117139	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309127201	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309154031	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309271174	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309307322	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309426492	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309487457	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309561031	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309576665	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309771676	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309831032	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309847830	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309855379	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309905922	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309976358	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789309987976	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310002277	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310048526	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310056447	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310076529	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310162697	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310163389	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310164242	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789310164244	Sync.Service	INFO	Starting sync at 2026-09-13 15:36:03 in browser session QigwkqUIN4JU
+1789310164263	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789310168863	Sync.Status	INFO	Resetting Status.
+1789310168863	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789310168873	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789310168874	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789310168876	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789310168876	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789310168877	Sync.SyncAuthManager	INFO	Getting sync key
+1789310169216	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789310169223	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1789310169224	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789310169224	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1789310169377	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1789310169377	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1789310169377	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1789310169380	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1789310197476	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1789310197477	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1789310197478	Services.Common.TokenServerClient	DEBUG	Successful token response
+1789310197479	Sync.Status	DEBUG	Status.login: success.login => success.login
+1789310197479	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789310198010	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789310198013	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789310198229	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1789310235176	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310242917	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789310243711	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/collections
+1789310243719	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration
+1789310243722	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789310246892	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1789310252738	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration failed: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789310252738	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789310252740	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1789310253039	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789310253465	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

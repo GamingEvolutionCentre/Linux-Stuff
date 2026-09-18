@@ -1,0 +1,25 @@
+2026-09-14 13:10:47.211 [info] Agent Host process started successfully
+2026-09-14 13:10:47.629 [info] AgentService initialized
+2026-09-14 13:10:47.687 [info] Registering agent provider: copilotcli
+2026-09-14 13:10:47.701 [info] Registering agent provider: claude
+2026-09-14 13:10:47.724 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 13:10:47.728 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 13:10:48.706 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-14 13:10:50.335 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-b1431b2c4a69/k_Ohs8N710xXXCUGVbm4rA.sock
+2026-09-14 13:10:50.336 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 13:10:50.534 [info] [ProtocolServer] Initialize: clientId=cf20b30e-72c0-4408-84f0-f0b13b60485b, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-14 13:10:51.100 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-14 13:10:51.247 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-14 13:10:51.267 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-14 13:10:51.653 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-14 13:10:51.655 [info] [Copilot] Listing discoverable chats...
+2026-09-14 13:10:51.657 [info] [Copilot] Starting CopilotClient...
+2026-09-14 13:10:51.660 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-14 13:10:51.780 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-14 13:10:51.821 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-14 13:11:50.019 [info] [Copilot] Auth token updated
+2026-09-14 13:11:58.014 [info] [ClaudeProxyService] listening on http://127.0.0.1:41875
+2026-09-14 13:11:58.015 [info] [Claude] Auth token updated
+2026-09-14 13:12:01.997 [info] [Copilot] CopilotClient started successfully
+2026-09-14 13:12:02.094 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-14 13:12:02.586 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)

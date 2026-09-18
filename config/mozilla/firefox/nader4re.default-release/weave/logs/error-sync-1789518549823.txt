@@ -1,0 +1,132 @@
+1789515046845	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1789515051776	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515057923	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515111401	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515117672	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515126383	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515149229	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515250233	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515255500	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515290734	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515293232	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515415773	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515422299	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515471833	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515476909	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515601772	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515604445	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515655579	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515663119	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515666443	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515711744	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515785426	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515794532	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515831300	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515876483	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515977297	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789515978699	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516011226	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516059120	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516087068	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516130776	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516192064	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516247714	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516378520	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516379935	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516385907	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516490841	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516507429	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516530198	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516551599	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516666783	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516670486	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516673283	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516731980	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516738349	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516851416	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516856157	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516915234	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516946250	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516946264	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789516989229	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517041882	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517092136	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517144557	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517217629	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517226275	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517272093	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517278509	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517346466	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517446060	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517457693	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517493576	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517565964	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517572740	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517632165	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517652534	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517794731	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517795904	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517799296	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517810518	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517826139	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517939062	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517942794	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789517993180	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518000860	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518113536	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518119896	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518173124	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518180570	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518186432	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518211052	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518394966	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518436599	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518438060	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518439165	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518443735	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789518443773	Sync.Service	INFO	Starting sync at 2026-09-16 01:27:23 in browser session 3M2W76A4RgYs
+1789518444210	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789518454661	Sync.Status	INFO	Resetting Status.
+1789518454709	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789518458908	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789518459170	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789518459529	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789518459529	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789518459639	Sync.SyncAuthManager	INFO	Getting sync key
+1789518461062	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789518461848	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1789518462035	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789518462035	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1789518462081	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1789518462082	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1789518462264	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1789518462730	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1789518469584	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1789518473113	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1789518473252	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1789518473425	Services.Common.TokenServerClient	DEBUG	Successful token response
+1789518473504	Sync.Status	DEBUG	Status.login: success.login => success.login
+1789518473504	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789518474121	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789518474573	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789518513422	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1789518513422	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1789518513476	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -43476
+1789518513704	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1789518513705	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518515217	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/attached_clients
+1789518515793	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518518524	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/attached_clients 200
+1789518518524	Hawk	DEBUG	(Response) /account/attached_clients: code: 200 - Status text: 
+1789518518524	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -2524
+1789518525969	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1789518544565	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518544616	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789518546372	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/collections
+1789518546799	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration
+1789518546800	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789518547001	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration failed: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789518547102	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789518547190	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1789518548222	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789518549314	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

@@ -1,0 +1,941 @@
+2026-09-16 07:49:07.546 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2026-09-16 07:49:07.724 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-16 07:49:07.846 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 21ms.
+2026-09-16 07:49:08.003 [warning] Creation of workbench contribution 'workbench.contrib.accessibilityStatus' took 102ms.
+2026-09-16 07:49:08.034 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-16 07:49:08.078 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 21ms.
+2026-09-16 07:49:10.427 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-16 07:49:11.617 [info] Started local extension host with pid 1748.
+2026-09-16 07:49:13.883 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-16 07:49:18.887 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-16 07:49:27.589 [info] [AgentHost:renderer] Protocol connection established; clientId=09469be3-a5a0-4579-a8ff-8987349e1dc1
+2026-09-16 07:49:31.682 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 07:49:33.773 [info] [perf] Render performance baseline is 366ms
+2026-09-16 07:49:48.958 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 07:50:04.771 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 07:50:04.773 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 07:50:04.774 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 07:50:04.778 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 07:50:05.652 [error] [Extension Host] (node:1748) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-16 07:50:06.377 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-16 07:50:11.934 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 07:50:24.834 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-16 07:50:25.761 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 07:50:25.955 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 07:50:25.974 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 07:50:28.038 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-16 07:51:44.100 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 07:51:44.268 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 07:51:44.276 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 07:51:46.999 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 07:52:38.823 [error] potential listener LEAK detected, popular: Error
+    at s.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:18501)
+    at gM._event [as onDidChangeFilesAssociation] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2398)
+    at XV.registerListeners (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:12895)
+    at new XV (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:12556)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at EZe.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:8774)
+    at EZe.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:8441)
+    at zft.doCreateReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:28085)
+    at zft.createReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:27728)
+    at zft.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3513)
+    at jRe.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3832)
+    at Kft.createModelReference (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:30381)
+    at V6e._createEditsTasks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:16798)
+    at V6e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17625)
+    at V_t._performTextEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:21371)
+    at V_t.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:20562)
+    at U_t.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:23029)
+    at Vee.replace (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4317:27579)
+    at Z3e.replaceAll (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3948:12621)
+    at $6e.replaceAll (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4314:4990)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3948:41914
+2026-09-16 07:52:39.347 [error] potential listener LEAK detected, dominated: Error
+    at s.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:18501)
+    at gM._event [as onDidChangeFilesAssociation] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2398)
+    at XV.registerListeners (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:12895)
+    at new XV (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:12556)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at EZe.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:8774)
+    at EZe.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:8441)
+    at zft.doCreateReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:28085)
+    at zft.createReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:27728)
+    at zft.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3513)
+    at jRe.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3832)
+    at Kft.createModelReference (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:30381)
+    at V6e._createEditsTasks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:16798)
+    at V6e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17625)
+    at V_t._performTextEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:21371)
+    at V_t.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:20562)
+    at U_t.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:23029)
+    at Vee.replace (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4317:27579)
+    at Z3e.replaceAll (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3948:12621)
+    at $6e.replaceAll (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4314:4990)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3948:41914
+2026-09-16 07:52:45.260 [error] [LanguageService._onDidChange] potential listener LEAK detected, popular: Error
+    at s.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:18501)
+    at dA._event [as event] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2398)
+    at dA.onFirstObserverAdded (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:20343)
+    at dA.addObserver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:1590)
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:16160)
+    at Qht._event [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2650)
+    at new Nh (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:698:36703)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at jft._createModelData (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2003:2490)
+    at jft.createModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2004:898)
+    at XV.doCreateTextEditorModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:14333)
+    at XV.createTextEditorModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:14159)
+    at XV.doCreateTextModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:17962)
+    at XV.resolveFromContent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:17799)
+    at XV.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:16901)
+    at async XV.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:14774)
+    at async EZe.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:9016)
+    at async zft.doCreateReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:28052)
+    at async jRe.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3866)
+    at async Kft.createModelReference (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:30349)
+    at async Promise.all (index 185)
+    at async V6e._createEditsTasks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17443)
+    at async V6e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17614)
+    at async V_t._performTextEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:21230)
+    at async V_t.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:20551)
+    at async U_t.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:23021)
+    at async Vee.replace (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4317:27550)
+2026-09-16 07:52:48.620 [error] [LanguageService._onDidChange] potential listener LEAK detected, popular: Error
+    at s.create (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:18501)
+    at dA._event [as event] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2398)
+    at dA.onFirstObserverAdded (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:20343)
+    at dA.addObserver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:1590)
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:16160)
+    at Qht._event [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2650)
+    at new Nh (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:698:36703)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at jft._createModelData (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2003:2490)
+    at jft.createModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2004:898)
+    at XV.doCreateTextEditorModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:14333)
+    at XV.createTextEditorModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:14159)
+    at XV.doCreateTextModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:17962)
+    at XV.resolveFromContent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:17799)
+    at XV.resolveFromFile (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:16901)
+    at async XV.resolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:14774)
+    at async EZe.doResolve (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5611:9016)
+    at async zft.doCreateReferencedObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:28052)
+    at async jRe.acquire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:3866)
+    at async Kft.createModelReference (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:30349)
+    at async Promise.all (index 185)
+    at async V6e._createEditsTasks (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17443)
+    at async V6e.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:17614)
+    at async V_t._performTextEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:21230)
+    at async V_t.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:20551)
+    at async U_t.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4313:23021)
+    at async Vee.replace (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4317:27550)
+2026-09-16 07:53:01.603 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.611 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.621 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.626 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.636 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.639 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.644 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.657 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.666 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.675 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.685 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.692 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.705 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.710 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.724 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.733 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.738 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.744 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.760 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.772 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.777 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.788 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.796 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.800 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.809 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.825 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.842 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.856 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.871 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.876 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.887 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.893 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.905 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.920 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.929 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.933 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.950 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.956 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.962 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.965 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.976 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.987 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.991 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:01.996 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.003 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.016 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.024 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.031 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.036 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.038 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.056 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.062 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.066 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.071 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.080 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.088 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.094 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.101 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.107 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.112 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.124 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.137 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.149 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.155 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.159 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.170 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.181 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.187 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.194 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.199 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.210 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.219 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.225 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.230 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.238 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.254 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.258 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.264 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.277 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.283 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.290 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.306 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.309 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.316 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.320 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.337 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.344 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.350 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.353 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.357 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.370 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.378 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.380 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.383 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.387 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.394 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.402 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.411 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.414 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.419 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.443 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.481 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.484 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.487 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.489 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.491 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.495 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.499 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.503 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.516 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.525 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.530 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.532 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.535 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.537 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.539 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.543 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.545 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.550 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.552 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.555 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.567 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.574 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.577 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.584 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.587 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.606 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.610 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.616 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.623 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.631 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.641 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.645 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.649 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.652 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.655 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.660 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.663 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.667 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.679 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.689 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.696 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.698 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.700 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.707 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.723 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.731 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.739 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.743 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.746 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.751 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.763 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.779 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.793 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.797 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.801 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.816 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.823 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.831 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.843 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.848 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.862 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.876 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.881 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.888 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.894 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.897 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.901 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.905 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.909 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.912 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.915 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.920 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.923 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.927 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.944 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.957 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.966 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.972 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.976 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.980 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.984 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.988 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.992 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:02.996 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.014 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.018 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.022 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.026 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.030 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.033 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.037 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.040 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.044 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.049 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.053 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.056 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.060 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.065 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.068 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.072 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.075 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.079 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.082 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.087 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.092 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.096 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.098 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.100 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.102 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.104 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.106 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.109 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.113 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.115 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.118 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.121 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.123 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.127 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.130 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.132 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.138 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.143 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.145 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.148 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.154 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.160 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.162 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.164 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.168 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.170 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.173 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.176 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.178 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.180 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.186 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.190 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.193 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.196 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.198 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.201 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.203 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.208 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.211 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.216 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.218 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.230 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.236 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.241 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.245 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.254 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.263 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.266 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.273 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.281 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.287 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.288 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.291 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.296 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.299 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.304 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.307 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.315 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.322 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.326 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.328 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.331 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.369 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.373 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.376 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.379 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.382 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.384 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.388 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.391 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.394 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.397 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.400 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.404 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.408 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.411 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.414 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.417 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.420 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.423 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.426 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.429 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.432 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.435 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.438 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.441 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.445 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.448 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.451 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.454 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.458 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.463 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.466 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.469 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.476 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.478 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.482 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 07:53:03.493 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:01:37.633 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-16 08:01:46.681 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-16 08:17:14.297 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:17:14.963 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:17:14.966 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:17:37.232 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 08:48:59.177 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:49:06.527 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 08:49:07.133 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:49:07.134 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:50:01.080 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:50:05.555 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:50:08.350 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:50:09.684 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:50:10.807 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:50:10.812 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:50:12.111 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 08:57:23.990 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:57:26.039 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:57:27.657 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:57:27.659 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:57:28.695 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:57:33.862 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:57:38.688 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 08:58:36.868 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 08:58:39.231 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:58:39.235 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:59:12.955 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 08:59:13.099 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 08:59:13.101 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 08:59:16.957 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 08:59:23.603 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:00:19.643 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:02:36.590 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:02:37.251 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:02:37.253 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:03:03.826 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:03:29.768 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:03:39.095 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:04:02.068 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:04:03.280 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:04:03.862 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:04:04.147 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:04:12.986 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:04:25.762 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:04:28.422 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:04:34.375 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:04:34.376 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:04:47.030 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:04:48.573 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:04:51.063 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:04:59.903 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:05:02.921 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:05:09.254 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:05:11.400 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:05:11.409 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:05:11.410 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:05:16.465 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:05:26.079 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:05:59.207 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:06:04.355 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:06:15.224 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:06:19.111 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:06:19.113 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:06:26.231 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-16 09:06:27.210 [error] DocumentMissingInHistoryContext: Error: DocumentMissingInHistoryContext
+	at nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:8338)
+	at nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4922)
+	at nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2656)
+	at kR._provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:37008)
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35422
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17233
+	at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+	at Sye.captureInvocation (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17223)
+	at kR.provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35393)
+	at rs.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:154324)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180349
+	at r._withAdapter (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:167792)
+	at r.$provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180326)
+	at r._doInvokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158933)
+	at r._invokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158681)
+	at r._receiveRequest (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:157370)
+	at r._receiveOneMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:156259)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:154334)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:10003)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-16 09:06:28.122 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:06:41.176 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:07:04.027 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:07:06.834 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:07:06.836 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:07:09.653 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:07:13.330 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:07:46.310 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:07:46.915 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:07:46.917 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:08:02.290 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:08:17.950 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:08:19.217 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:08:21.713 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:08:22.035 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:08:22.036 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:08:24.102 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:08:25.349 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:08:25.700 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:08:25.707 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:08:26.942 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:08:27.431 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:08:27.619 [warning] UNRESPONSIVE extension host: 'vscode.git' took 22.20628317314589% of 3.096ms, saved PROFILE here: 'file:///tmp/exthost-65f17f.cpuprofile'
+2026-09-16 09:25:06.505 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:25:11.059 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:25:11.060 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:25:17.143 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:26:03.866 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:26:04.230 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:26:04.232 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:26:04.233 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:26:08.002 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:26:10.245 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 75.57532392187198% of 11.724ms, saved PROFILE here: 'file:///tmp/exthost-892567.cpuprofile'
+2026-09-16 09:30:35.881 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:30:36.386 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:30:36.387 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:30:37.584 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:30:41.681 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:30:41.980 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:30:43.830 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:30:43.914 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:30:54.810 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:30:54.811 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:30:54.851 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:30:59.091 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:30:59.093 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 09:30:59.101 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:30:59.106 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:31:02.986 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:31:03.174 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 100% of 811.411ms, saved PROFILE here: 'file:///tmp/exthost-0b2655.cpuprofile'
+2026-09-16 09:31:07.986 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:31:07.987 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:31:07.993 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:31:10.183 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 09:39:03.946 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:39:05.857 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:39:05.859 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:39:22.625 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 09:39:42.200 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 09:39:42.203 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 09:39:42.204 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 10:05:15.576 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 10:05:21.196 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:05:24.117 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:05:28.499 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:06:09.203 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:06:30.982 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:06:43.193 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-16 10:06:43.756 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 10:06:43.759 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 10:07:01.101 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-16 10:08:44.170 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-16 10:08:48.820 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-16 10:15:36.530 [info] Extension host (LocalProcess pid: 1748) is unresponsive.
+2026-09-16 10:15:38.052 [info] Extension host (LocalProcess pid: 1748) is responsive.
+2026-09-16 10:15:38.054 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-16 10:16:05.199 [info] UNRESPONSIVE extension host: starting to profile NOW

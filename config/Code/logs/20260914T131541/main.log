@@ -1,0 +1,20 @@
+2026-09-14 13:15:42.689 [info] StorageMainService: creating application shared storage
+2026-09-14 13:15:46.756 [info] [shared storage] Creating shared storage database at '/home/darren/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-14 13:15:46.765 [info] [shared storage] Initializing fallback application storage (path: /home/darren/.config/Code/User/globalStorage/state.vscdb)
+2026-09-14 13:15:47.153 [info] [shared storage] Fallback application storage initialized with 152 items
+2026-09-14 13:15:54.018 [info] update#disable - updates are disabled by user preference
+2026-09-14 13:15:54.023 [info] update#setState disabled
+2026-09-14 13:15:54.348 [info] AgentHostProcessManager: agent host started
+2026-09-14 13:16:20.414 [error] [AgentHost:stderr] (node:7652) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-14 13:31:29.890 [info] Extension host with pid 7655 exited with code: 0, signal: unknown.
+2026-09-14 13:31:30.979 [error] Extension host with pid 7655 still exists, forcefully killing it...
+2026-09-14 15:38:05.007 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-14 15:38:05.325 [warning] AgentHostProcessManager: agent host did not shut down within 6000ms; terminating it
+2026-09-14 15:38:06.490 [info] Extension host with pid 8293 exited with code: 0, signal: unknown.
+2026-09-14 15:38:06.809 [warning] [storage main] detected slow close() operation: Time: 8212ms, DB size: 172032b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10473, vscode.github-authentication:2950, memento/customEditors:1685
+2026-09-14 15:38:06.851 [warning] [storage main] detected slow close() operation: Time: 8216ms, DB size: 40960b, Large Keys: workbench.view.extensions.state:2723, terminal.integrated.environmentVariableCollectionsV2:1749, __$__targetStorageMarker:1557, chat.ChatSessionStore.index:961, workbench.activity.viewletsWorkspaceState:788
+2026-09-14 15:38:06.852 [warning] [storage main] detected slow close() operation: Time: 8277ms, DB size: 282624b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10324, extensionsEnablement/malicious:9490, memento/experiment.service.memento:9370
+2026-09-14 15:38:06.854 [warning] [storage main] detected slow close() operation: Time: 8218ms, DB size: 12288b, Large Keys: history.recentlyOpenedPathsList:436, content.trust.model.key:351, __$__targetStorageMarker:110, __$__isNewStorageMarker:5, chat.vscodePet.achievementCatalogVersion:1
+2026-09-14 15:38:06.855 [warning] [storage main] detected slow close() operation: Time: 8218ms, DB size: 49152b, Large Keys: chat.customModes.local:9473, memento/workbench.editors.files.textFileEditor:6350, terminal.integrated.environmentVariableCollectionsV2:1749, codelens/cache2:1626, __$__targetStorageMarker:1242

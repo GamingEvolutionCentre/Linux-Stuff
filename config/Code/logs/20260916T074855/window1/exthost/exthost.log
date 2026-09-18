@@ -1,0 +1,221 @@
+2026-09-16 07:49:24.180 [info] Extension host with pid 1748 started
+2026-09-16 07:49:24.180 [info] Skipping acquiring lock for /home/darren/.config/Code/User/workspaceStorage/ea6fc3de1d54ddfbbbfd264279a9a565.
+2026-09-16 07:49:27.321 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-16 07:49:27.647 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-16 07:49:27.984 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-16 07:49:43.565 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-09-16 07:49:49.053 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-16 07:49:56.116 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 07:49:56.212 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-16 07:49:59.900 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-16 07:50:00.650 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-16 07:50:06.283 [info] Eager extensions activated
+2026-09-16 07:50:27.005 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 07:50:27.108 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 07:50:27.758 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-16 07:50:36.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1655
+2026-09-16 07:50:38.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1655
+2026-09-16 07:50:40.040 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1655
+2026-09-16 07:51:50.372 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1655
+2026-09-16 07:53:14.224 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-09-16 07:53:16.676 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-09-16 07:53:40.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:54:03.521 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:54:23.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:54:45.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:54:51.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:55:08.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:55:22.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:55:28.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:55:45.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:55:51.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:56:33.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:56:38.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:56:44.156 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:56:49.981 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:56:56.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:14.707 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:20.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:25.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:31.253 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:43.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:49.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:57:57.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:03.486 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:16.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:22.257 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:32.576 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:37.851 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:43.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:48.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:53.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:58:59.185 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:59:04.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:59:17.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:59:23.192 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 07:59:50.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:01.082 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:06.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:11.925 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:20.354 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:26.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:49.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:00:55.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:03.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:09.034 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:14.375 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:34.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:37.483 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 68)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-16 08:01:39.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:45.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:46.626 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 92)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-16 08:01:51.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:01:57.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:02:26.707 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:02:46.642 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:02:52.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:48:57.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:49:36.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:49:57.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:50:15.604 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:50:21.130 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:51:57.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:58:51.589 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:59:34.035 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:59:41.005 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 08:59:47.619 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:00:34.548 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:01:29.688 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:01:56.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:02:09.176 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:02:25.599 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:02:32.859 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:04:20.774 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:04:43.776 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:05:57.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:06:25.962 [error] Error: DocumentMissingInHistoryContext
+
+Error: DocumentMissingInHistoryContext
+	at nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:8338)
+	at nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4922)
+	at nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2656)
+	at kR._provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:37008)
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35422
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17233
+	at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+	at Sye.captureInvocation (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17223)
+	at kR.provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35393)
+	at rs.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:154324)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180349
+	at r._withAdapter (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:167792)
+	at r.$provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180326)
+	at r._doInvokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158933)
+	at r._invokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158681)
+	at r._receiveRequest (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:157370)
+	at r._receiveOneMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:156259)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:154334)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:10003)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+	at Timeout._onTimeout (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3:12)
+	at listOnTimeout (node:internal/timers:605:17)
+	at process.processTimers (node:internal/timers:541:7)
+2026-09-16 09:06:26.838 [error] [GitHub.copilot-chat] provider FAILED
+2026-09-16 09:06:26.842 [error] Error: DocumentMissingInHistoryContext
+	at nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:8338)
+	at nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4922)
+	at nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2656)
+	at kR._provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:37008)
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35422
+	at /usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17233
+	at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+	at Sye.captureInvocation (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1462:17223)
+	at kR.provideInlineCompletionItems (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:5290:35393)
+	at rs.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:154324)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180349
+	at r._withAdapter (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:167792)
+	at r.$provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:180326)
+	at r._doInvokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158933)
+	at r._invokeHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:158681)
+	at r._receiveRequest (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:157370)
+	at r._receiveOneMessage (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:156259)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:435:154334)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Np.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:10003)
+	at T._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:851:8171)
+	at MessagePortMain.emit (node:events:509:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-09-16 09:07:16.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:07:58.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:08:33.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:15:48.642 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:24:49.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:26:00.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:26:11.618 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:26:32.773 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:31:30.646 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:02.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:14.954 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:22.205 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:29.707 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:38.111 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:32:56.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:18.181 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:24.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:41.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:47.918 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:53.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:33:59.244 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1687
+2026-09-16 09:34:48.805 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-09-16 09:40:05.740 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1724
+2026-09-16 09:57:08.215 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1725
+2026-09-16 09:57:39.459 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1726
+2026-09-16 09:58:12.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1727
+2026-09-16 09:59:17.415 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1740
+2026-09-16 10:00:44.548 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1753
+2026-09-16 10:00:58.717 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1746
+2026-09-16 10:01:03.570 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2026-09-16 10:05:06.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:07:10.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:07:34.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:09.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:16.940 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:23.663 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:30.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:35.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:41.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:44.055 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 66)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-16 10:08:46.783 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:08:48.813 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 68)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-16 10:08:52.187 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:06.540 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:15.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:20.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:26.313 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:45.604 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:09:51.282 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748
+2026-09-16 10:10:04.137 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1748

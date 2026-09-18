@@ -1,0 +1,35 @@
+2026-09-14 15:57:15.832 [info] Agent Host process started successfully
+2026-09-14 15:57:16.164 [info] AgentService initialized
+2026-09-14 15:57:16.265 [info] Registering agent provider: copilotcli
+2026-09-14 15:57:16.277 [info] Registering agent provider: claude
+2026-09-14 15:57:16.298 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 15:57:16.301 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 15:57:16.579 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-14 15:57:16.739 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-14 15:57:16.971 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-b1431b2c4a69/0yizaFonnExhupV9lqNL6g.sock
+2026-09-14 15:57:17.388 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-14 15:57:18.324 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 15:57:18.426 [info] [ProtocolServer] Initialize: clientId=e240a312-dfb2-4685-968e-48a10785c19a, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-14 15:57:19.193 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-14 15:57:19.196 [info] [Copilot] Listing discoverable chats...
+2026-09-14 15:57:19.198 [info] [Copilot] Starting CopilotClient...
+2026-09-14 15:57:19.200 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-14 15:57:19.281 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-14 15:57:19.722 [info] [Copilot] Resolved CLI path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-linux-x64/index.js
+2026-09-14 15:57:20.048 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-14 15:57:38.763 [info] [Copilot] CopilotClient started successfully
+2026-09-14 15:57:38.773 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-14 15:57:38.821 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-14 15:58:01.985 [info] [Copilot] Auth token updated
+2026-09-14 15:58:04.144 [info] [ClaudeProxyService] listening on http://127.0.0.1:38943
+2026-09-14 15:58:04.145 [info] [Claude] Auth token updated
+2026-09-14 15:58:23.335 [info] [Copilot] Enhanced (restricted) telemetry enabled for this account
+2026-09-14 15:58:23.355 [info] [Copilot] Listing models...
+2026-09-14 15:58:25.253 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-14 15:58:30.196 [info] [Copilot] Found 1 models: Auto
+2026-09-14 18:58:05.934 [info] [ProtocolServer] Client disconnected: e240a312-dfb2-4685-968e-48a10785c19a, subscriptions=1
+2026-09-14 18:58:06.335 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 18:58:06.342 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-09-14 18:58:06.939 [info] AgentService: shutting down all providers...
+2026-09-14 18:58:06.971 [info] [Copilot] Shutting down...
+2026-09-14 18:58:08.936 [warning] Agent Host providers did not finish shutting down within 1500ms.

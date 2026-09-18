@@ -1,0 +1,35 @@
+2026-09-15 09:18:41.355 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 09:18:49.416 [info] [getSessions] [all] starting
+2026-09-15 09:18:49.416 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 09:18:49.417 [info] [getSessions] [all] starting
+2026-09-15 09:18:49.417 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 09:18:49.418 [info] [getSessions] [all] starting
+2026-09-15 09:18:49.418 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 09:18:49.421 [info] [getSessions] [email offline_access openid profile] starting
+2026-09-15 09:18:49.421 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 09:18:49.899 [info] [getSessions] [email offline_access openid profile] returned 0 session(s)
+2026-09-15 09:18:49.899 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-09-15 09:18:49.900 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-09-15 09:18:53.476 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-09-15 09:18:53.476 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-09-15 12:10:41.341 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 12:10:45.500 [info] [getSessions] [all] starting
+2026-09-15 12:10:45.500 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:10:45.500 [info] [getSessions] [all] starting
+2026-09-15 12:10:45.500 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:10:45.501 [info] [getSessions] [all] starting
+2026-09-15 12:10:45.501 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:10:48.440 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-09-15 12:10:48.440 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 12:10:51.304 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-09-15 12:14:22.019 [info] Microsoft Authentication is deactivating...
+2026-09-15 12:15:18.391 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 12:15:41.413 [info] [getSessions] [all] starting
+2026-09-15 12:15:41.413 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:15:41.413 [info] [getSessions] [all] starting
+2026-09-15 12:15:41.414 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:15:41.414 [info] [getSessions] [all] starting
+2026-09-15 12:15:41.414 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 12:15:42.773 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-09-15 12:15:42.773 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 12:15:42.918 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)

@@ -1,0 +1,79 @@
+2026-09-14 13:03:11.343 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 25ms.
+2026-09-14 13:03:11.551 [warning] Creation of workbench contribution 'workbench.contrib.notebookChatContribution' took 24ms.
+2026-09-14 13:03:11.636 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-14 13:03:11.644 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 28ms.
+2026-09-14 13:03:11.709 [warning] Creation of workbench contribution 'workbench.contrib.chatLanguageModelsData' took 25ms.
+2026-09-14 13:03:11.718 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 39ms.
+2026-09-14 13:03:11.790 [warning] Creation of workbench contribution 'chat.renameTool' took 37ms.
+2026-09-14 13:03:11.863 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 13:03:15.090 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 13:03:15.195 [info] Started local extension host with pid 6892.
+2026-09-14 13:03:15.439 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:03:21.603 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:03:27.853 [warning] Creation of workbench contribution 'chat.userToolSets' took 123ms.
+2026-09-14 13:03:28.727 [info] [perf] Render performance baseline is 633ms
+2026-09-14 13:03:37.934 [info] [AgentHost:renderer] Protocol connection established; clientId=f6ce5a82-58f9-4579-ba51-a4396e9bb2e9
+2026-09-14 13:03:41.347 [info] Extension host (LocalProcess pid: 6892) is unresponsive.
+2026-09-14 13:04:17.802 [info] Extension host (LocalProcess pid: 6892) is responsive.
+2026-09-14 13:04:18.076 [info] Extension host (LocalProcess pid: 6892) is unresponsive.
+2026-09-14 13:04:18.077 [info] Extension host (LocalProcess pid: 6892) is responsive.
+2026-09-14 13:04:18.078 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:04:18.080 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:04:20.925 [error] [Extension Host] (node:6892) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 13:04:22.507 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-14 13:04:24.517 [warning] UNRESPONSIVE extension host: 'vscode.debug-auto-launch' took 31.89328482643626% of 4.208ms, saved PROFILE here: 'file:///tmp/exthost-84e99d.cpuprofile'
+2026-09-14 13:04:25.291 [info] Extension host (LocalProcess pid: 6892) is unresponsive.
+2026-09-14 13:04:31.500 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:04:31.539 [info] Extension host (LocalProcess pid: 6892) is responsive.
+2026-09-14 13:04:31.540 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:04:32.273 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.685 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.689 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.691 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.697 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.698 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.711 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:32.715 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:33.185 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.512 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.517 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.521 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.523 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.527 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.528 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.533 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:33.810 [warning] UNRESPONSIVE extension host: 'vscode.microsoft-authentication' took 69.60334111872055% of 35.165ms, saved PROFILE here: 'file:///tmp/exthost-ee5e5d.cpuprofile'
+2026-09-14 13:04:34.463 [error] Sign in to GitHub to use the Cloud Agent.: Error: Sign in to GitHub to use the Cloud Agent.
+	at Trt._authHeaders (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3155:16201)
+	at async Trt._request (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3155:16357)
+	at async Trt.listTasks (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3155:17454)
+	at async krt.fetchSessionList (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3155:11941)
+	at async /usr/share/code/resources/app/extensions/copilot/dist/extension.js:3158:19078
+	at async Object.refreshHandler (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:33041)
+	at async ch.$refreshChatSessionItems (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:569:45089)
+2026-09-14 13:04:37.753 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.762 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.770 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.774 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.775 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.776 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.793 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:37.797 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:38.021 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.025 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.028 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.037 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.043 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.047 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.048 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.057 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.064 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:38.572 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.606 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-09-14 13:04:38.610 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-09-14 13:04:38.620 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-14 13:04:38.632 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-14 13:04:38.651 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-09-14 13:04:38.654 [error] [ChatSessionsService] Failed to resolve sessions for provider copilot-cloud-agent Sign in to GitHub to use the Cloud Agent.
+2026-09-14 13:09:11.156 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

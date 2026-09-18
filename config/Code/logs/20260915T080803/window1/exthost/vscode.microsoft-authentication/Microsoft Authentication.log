@@ -1,0 +1,12 @@
+2026-09-15 08:11:54.253 [info] [getSessions] [all] starting
+2026-09-15 08:11:54.253 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 08:11:54.253 [info] [getSessions] [all] starting
+2026-09-15 08:11:54.253 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 08:11:54.254 [info] [getSessions] [all] starting
+2026-09-15 08:11:54.254 [info] [getSessions] [all] returned 0 session(s)
+2026-09-15 08:11:54.260 [info] [getSessions] [email offline_access openid profile] starting
+2026-09-15 08:11:54.260 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-09-15 08:11:56.536 [info] [getSessions] [email offline_access openid profile] returned 0 session(s)
+2026-09-15 08:11:56.537 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-09-15 08:11:56.537 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-09-15 08:59:46.179 [info] Microsoft Authentication is deactivating...

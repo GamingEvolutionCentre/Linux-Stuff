@@ -1,0 +1,38 @@
+2026-09-14 15:56:19.372 [info] StorageMainService: creating application shared storage
+2026-09-14 15:56:23.260 [info] [shared storage] Creating shared storage database at '/home/darren/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-14 15:56:23.317 [info] [shared storage] Initializing fallback application storage (path: /home/darren/.config/Code/User/globalStorage/state.vscdb)
+2026-09-14 15:56:27.211 [info] [shared storage] Fallback application storage initialized with 152 items
+2026-09-14 15:56:36.843 [info] update#disable - updates are disabled by user preference
+2026-09-14 15:56:36.844 [info] update#setState disabled
+2026-09-14 15:56:37.133 [info] AgentHostProcessManager: agent host started
+2026-09-14 15:57:16.338 [error] [AgentHost:stderr] (node:1470) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-14 18:57:11.881 [error] CodeWindow: detected unresponsive
+2026-09-14 18:58:00.529 [info] Extension host with pid 1538 exited with code: 0, signal: unknown.
+2026-09-14 18:58:01.064 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-14 18:58:01.067 [error] CodeWindow: detected unresponsive
+2026-09-14 18:58:02.069 [error] Extension host with pid 1538 still exists, forcefully killing it...
+2026-09-14 18:58:12.465 [error] No ptyHost heartbeat after 12 seconds
+2026-09-14 18:58:12.466 [warning] AgentHostProcessManager: agent host did not shut down within 6000ms; terminating it
+2026-09-14 18:58:13.887 [error] CodeWindow unresponsive samples:
+<1> 
+    at Array.indexOf (<anonymous>)
+    at Object.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1078:16334)
+    at tt (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:747)
+    at kt.clearAndDisposeAll (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:4179)
+    at kt.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:4113)
+    at tt (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:747)
+    at s.clear (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:1634)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:1544)
+    at W4t.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:2429)
+    at Iq.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5647:60888)
+    at tIo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5654:10621)
+    at eIo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5654:9761)
+    at async tPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5653:22956)
+Total Samples: 1
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-09-14 18:58:13.889 [warning] [storage main] detected slow close() operation: Time: 9274ms, DB size: 49152b, Large Keys: chat.customModes.local:9473, memento/workbench.editors.files.textFileEditor:6350, terminal.integrated.environmentVariableCollectionsV2:1749, __$__targetStorageMarker:1662, codelens/cache2:1626
+2026-09-14 18:58:13.891 [warning] [storage main] detected slow close() operation: Time: 9321ms, DB size: 12288b, Large Keys: history.recentlyOpenedPathsList:436, content.trust.model.key:351, __$__targetStorageMarker:110, __$__isNewStorageMarker:5, chat.vscodePet.achievementCatalogVersion:1
+2026-09-14 18:58:13.892 [warning] [storage main] detected slow close() operation: Time: 9345ms, DB size: 282624b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10324, extensionsEnablement/malicious:9490, memento/experiment.service.memento:9370
+2026-09-14 18:58:13.894 [warning] [storage main] detected slow close() operation: Time: 9323ms, DB size: 172032b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10473, vscode.github-authentication:2950, memento/customEditors:1685

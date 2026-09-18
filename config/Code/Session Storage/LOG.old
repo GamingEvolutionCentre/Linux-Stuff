@@ -1,0 +1,5 @@
+2026/09/15-09:00:06.930 cf4 Recovering log #24
+2026/09/15-09:00:07.721 cf4 Level-0 table #26: started
+2026/09/15-09:00:07.722 cf4 Level-0 table #26: 0 bytes OK
+2026/09/15-09:00:09.342 cf4 Delete type=3 #22
+2026/09/15-09:00:09.343 cf4 Delete type=0 #24

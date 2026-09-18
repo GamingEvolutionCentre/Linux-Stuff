@@ -1,0 +1,45 @@
+2026-09-14 13:12:41.323 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-09-14 13:12:41.323 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-09-14 13:12:41.323 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-14 13:12:41.323 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-09-14 13:12:41.323 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-09-14 13:12:41.324 [info] BYOK: fetching known models list
+2026-09-14 13:12:41.324 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-09-14 13:12:41.324 [info] Using the Electron fetcher.
+2026-09-14 13:12:41.324 [info] activationBlocker from 'languageModelAccess' took for 2818ms
+2026-09-14 13:12:41.324 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-09-14 13:12:41.324 [info] [CopilotCLIChatSessionContentProvider] listSessions took 14929.926267000003ms
+2026-09-14 13:12:41.324 [info] [CopilotCLIChatSessionContentProvider] listSessions took 13722.28099900001ms
+2026-09-14 13:12:41.324 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-09-14 13:12:41.324 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-09-14 13:12:41.324 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-09-14 13:12:41.324 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-09-14 13:12:41.324 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-09-14 13:12:41.324 [info] ConversationFeature: BYOK models available
+2026-09-14 13:12:41.324 [info] ConversationFeature: Activating contributions
+2026-09-14 13:12:41.324 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-09-14 13:12:41.324 [warning] Unable to fetch remote agents because user is not signed in.
+2026-09-14 13:12:41.324 [info] activationBlocker from 'conversationFeature' took for 97600ms
+2026-09-14 13:12:41.324 [info] [CopilotCLI] MCP server started. Lock file: /home/darren/.copilot/ide/a6865a2c-aced-4d35-b657-a50872e44238.lock
+2026-09-14 13:12:41.324 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-TAzBJy/mcp.sock#%2Fmcp
+2026-09-14 13:12:41.324 [info] Logged in as GamingEvolutionCentre
+2026-09-14 13:12:43.535 [info] Got Copilot token for GamingEvolutionCentre
+2026-09-14 13:12:43.535 [info] Copilot Chat: 0.65.0, VS Code: 1.137.0
+2026-09-14 13:12:44.099 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.107 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.107 [info] [code-referencing] Public code references are enabled.
+2026-09-14 13:12:44.112 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.112 [info] [code-referencing] Public code references are enabled.
+2026-09-14 13:12:44.113 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.114 [info] [code-referencing] Public code references are enabled.
+2026-09-14 13:12:44.114 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.114 [info] [code-referencing] Public code references are enabled.
+2026-09-14 13:12:44.156 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-09-14 13:12:44.188 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-09-14 13:12:44.188 [info] copilot token sku: free_limited_copilot
+2026-09-14 13:12:44.451 [info] Registering default platform agent...
+2026-09-14 13:12:44.511 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-09-14 13:12:44.534 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-09-14 13:12:45.432 [info] Fetched model metadata in 101459ms 2d58d040-ee51-4ec0-a1b9-1784546a27d8
+2026-09-14 13:12:46.331 [info] Latest entry: ccreq:latest.copilotmd
+2026-09-14 13:12:46.364 [info] ccreq:0ca748a7.copilotmd | markdown

@@ -1,0 +1,151 @@
+2026-09-13 17:51:20.731 [info] 
+2026-09-13 17:51:20.731 [info] === Customizations Snapshot ===
+2026-09-13 17:51:20.731 [info]   Root: (none)
+2026-09-13 17:51:20.731 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-09-13 17:51:20.731 [info] 
+2026-09-13 17:51:20.731 [info]   Section           Local   User    Ext   Total
+2026-09-13 17:51:20.731 [info]   --------          -----   ----    ---   -----
+2026-09-13 17:51:22.883 [info]   agents                0      0      0       0
+2026-09-13 17:51:26.572 [info]   skills                0      0     10      10
+2026-09-13 17:51:26.853 [info]   instructions          0      0      0       0
+2026-09-13 17:51:27.537 [info]   hooks                 0      0      0       0
+2026-09-13 17:51:27.553 [info] 
+2026-09-13 17:51:27.554 [info]   -- agents --
+2026-09-13 17:51:27.555 [info]      Search paths:
+2026-09-13 17:51:27.556 [info]        [local] /home/darren/.copilot/agents
+2026-09-13 17:51:27.556 [info]        [local] /home/darren/.claude/agents
+2026-09-13 17:51:27.557 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:28.388 [info] 
+2026-09-13 17:51:28.389 [info]   -- skills --
+2026-09-13 17:51:28.391 [info]      Search paths:
+2026-09-13 17:51:28.392 [info]        [user] /home/darren/.agents/skills
+2026-09-13 17:51:28.393 [info]        [user] /home/darren/.copilot/skills
+2026-09-13 17:51:28.396 [info]        [user] /home/darren/.claude/skills
+2026-09-13 17:51:28.440 [info]      Found 10 item(s):
+2026-09-13 17:51:28.441 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-09-13 17:51:28.445 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-09-13 17:51:28.451 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-09-13 17:51:28.452 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-09-13 17:51:28.453 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-09-13 17:51:28.453 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-09-13 17:51:28.454 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-09-13 17:51:28.455 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-09-13 17:51:28.456 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-09-13 17:51:28.457 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-09-13 17:51:28.461 [info] 
+2026-09-13 17:51:28.462 [info]   -- instructions --
+2026-09-13 17:51:28.463 [info]      Search paths:
+2026-09-13 17:51:28.464 [info]        [local] /home/darren/.copilot/instructions
+2026-09-13 17:51:28.469 [info]        [local] /home/darren/.claude/rules
+2026-09-13 17:51:28.469 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:28.609 [info] 
+2026-09-13 17:51:28.613 [info]   -- hooks --
+2026-09-13 17:51:28.621 [info]      Search paths:
+2026-09-13 17:51:28.622 [info]        [user] /home/darren/.copilot/hooks
+2026-09-13 17:51:28.874 [info] 
+2026-09-13 17:51:28.882 [info]   -- MCP Servers (1) --
+2026-09-13 17:51:28.884 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-09-13 17:51:28.888 [info] 
+2026-09-13 17:51:28.892 [info] 
+2026-09-13 17:51:28.899 [info] === Customizations Snapshot ===
+2026-09-13 17:51:28.902 [info]   Root: (none)
+2026-09-13 17:51:28.912 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-09-13 17:51:28.913 [info] 
+2026-09-13 17:51:28.913 [info]   Section           Local   User    Ext   Total
+2026-09-13 17:51:28.914 [info]   --------          -----   ----    ---   -----
+2026-09-13 17:51:29.019 [info]   agents                0      0      0       0
+2026-09-13 17:51:32.423 [info]   skills                0      0     10      10
+2026-09-13 17:51:32.832 [info]   instructions          0      0      0       0
+2026-09-13 17:51:32.848 [info]   hooks                 0      0      0       0
+2026-09-13 17:51:32.849 [info] 
+2026-09-13 17:51:32.850 [info]   -- agents --
+2026-09-13 17:51:32.850 [info]      Search paths:
+2026-09-13 17:51:32.851 [info]        [local] /home/darren/.copilot/agents
+2026-09-13 17:51:32.858 [info]        [local] /home/darren/.claude/agents
+2026-09-13 17:51:32.859 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:33.040 [info] 
+2026-09-13 17:51:33.045 [info]   -- skills --
+2026-09-13 17:51:33.046 [info]      Search paths:
+2026-09-13 17:51:33.047 [info]        [user] /home/darren/.agents/skills
+2026-09-13 17:51:33.048 [info]        [user] /home/darren/.copilot/skills
+2026-09-13 17:51:33.049 [info]        [user] /home/darren/.claude/skills
+2026-09-13 17:51:33.082 [info]      Found 10 item(s):
+2026-09-13 17:51:33.085 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-09-13 17:51:33.086 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-09-13 17:51:33.087 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-09-13 17:51:33.088 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-09-13 17:51:33.090 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-09-13 17:51:33.091 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-09-13 17:51:33.092 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-09-13 17:51:33.093 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-09-13 17:51:33.094 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-09-13 17:51:33.095 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-09-13 17:51:33.096 [info] 
+2026-09-13 17:51:33.096 [info]   -- instructions --
+2026-09-13 17:51:33.098 [info]      Search paths:
+2026-09-13 17:51:33.099 [info]        [local] /home/darren/.copilot/instructions
+2026-09-13 17:51:33.100 [info]        [local] /home/darren/.claude/rules
+2026-09-13 17:51:33.101 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:34.723 [info] 
+2026-09-13 17:51:34.732 [info]   -- hooks --
+2026-09-13 17:51:34.733 [info]      Search paths:
+2026-09-13 17:51:34.746 [info]        [user] /home/darren/.copilot/hooks
+2026-09-13 17:51:35.145 [info] 
+2026-09-13 17:51:35.146 [info]   -- MCP Servers (1) --
+2026-09-13 17:51:35.146 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-09-13 17:51:35.147 [info] 
+2026-09-13 17:51:35.155 [info] 
+2026-09-13 17:51:35.175 [info] === Customizations Snapshot ===
+2026-09-13 17:51:35.178 [info]   Root: (none)
+2026-09-13 17:51:35.179 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-09-13 17:51:35.184 [info] 
+2026-09-13 17:51:35.187 [info]   Section           Local   User    Ext   Total
+2026-09-13 17:51:35.192 [info]   --------          -----   ----    ---   -----
+2026-09-13 17:51:35.750 [info]   agents                0      0      0       0
+2026-09-13 17:51:36.641 [info]   skills                0      0     10      10
+2026-09-13 17:51:37.122 [info]   instructions          0      0      0       0
+2026-09-13 17:51:37.306 [info]   hooks                 0      0      0       0
+2026-09-13 17:51:37.309 [info] 
+2026-09-13 17:51:37.312 [info]   -- agents --
+2026-09-13 17:51:37.315 [info]      Search paths:
+2026-09-13 17:51:37.316 [info]        [local] /home/darren/.copilot/agents
+2026-09-13 17:51:37.316 [info]        [local] /home/darren/.claude/agents
+2026-09-13 17:51:37.317 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:38.851 [info] 
+2026-09-13 17:51:38.966 [info]   -- skills --
+2026-09-13 17:51:39.002 [info]      Search paths:
+2026-09-13 17:51:39.085 [info]        [user] /home/darren/.agents/skills
+2026-09-13 17:51:39.125 [info]        [user] /home/darren/.copilot/skills
+2026-09-13 17:51:39.126 [info]        [user] /home/darren/.claude/skills
+2026-09-13 17:51:41.515 [info]      Found 10 item(s):
+2026-09-13 17:51:41.516 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-09-13 17:51:41.525 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-09-13 17:51:41.532 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-09-13 17:51:41.548 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-09-13 17:51:41.552 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-09-13 17:51:41.555 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-09-13 17:51:41.565 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-09-13 17:51:41.566 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-09-13 17:51:41.567 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-09-13 17:51:41.575 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-09-13 17:51:41.576 [info] 
+2026-09-13 17:51:41.577 [info]   -- instructions --
+2026-09-13 17:51:41.591 [info]      Search paths:
+2026-09-13 17:51:41.593 [info]        [local] /home/darren/.copilot/instructions
+2026-09-13 17:51:41.599 [info]        [local] /home/darren/.claude/rules
+2026-09-13 17:51:41.603 [info]        [user] /home/darren/.config/Code/User/prompts
+2026-09-13 17:51:42.345 [info] 
+2026-09-13 17:51:42.346 [info]   -- hooks --
+2026-09-13 17:51:42.347 [info]      Search paths:
+2026-09-13 17:51:42.349 [info]        [user] /home/darren/.copilot/hooks
+2026-09-13 17:51:42.391 [info] 
+2026-09-13 17:51:42.393 [info]   -- MCP Servers (1) --
+2026-09-13 17:51:42.394 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-09-13 17:51:42.395 [info] 
+2026-09-13 17:52:17.621 [info] 
+2026-09-13 17:52:17.788 [info] === Customizations Snapshot ===
+2026-09-13 17:52:17.809 [info]   Root: (none)
+2026-09-13 17:52:17.810 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-09-13 17:52:17.813 [info] 
+2026-09-13 17:52:17.814 [info]   Section           Local   User    Ext   Total
+2026-09-13 17:52:17.818 [info]   --------          -----   ----    ---   -----

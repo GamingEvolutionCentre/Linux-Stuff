@@ -1,0 +1,200 @@
+2026-09-12T01:13:53.603Z - info: [ui] [AppStore] loading 0 repositories from store
+2026-09-12T01:13:53.696Z - info: [ui] Opt in reported.
+2026-09-12T01:13:54.038Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T01:13:54.083Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.18.51-1-lts)
+2026-09-12T01:13:54.098Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2026-09-12T01:13:54.098Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T01:13:56.682Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.000s)
+2026-09-12T01:13:56.697Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T01:13:57.404Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T01:14:01.993Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2026-09-12T01:14:02.013Z - info: [ui] [SignInStore] initializing OAuth flow
+2026-09-12T01:14:02.014Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=2af5eef4-124d-4551-9ca0-62307198d1d7
+2026-09-12T01:14:02.018Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2026-09-12T01:14:12.493Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T01:15:54.090Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T01:15:55.941Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T19:51:01.776Z - info: [ui] [AppStore] loading 0 repositories from store
+2026-09-12T19:51:02.340Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T19:51:02.377Z - info: [ui] launching: 3.4.13-linux1 (Linux 6.18.51-1-lts)
+2026-09-12T19:51:02.382Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2026-09-12T19:51:02.383Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T19:51:10.786Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.924s)
+2026-09-12T19:51:12.348Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T19:51:12.974Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T19:51:13.867Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T19:51:43.797Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2026-09-12T19:51:43.821Z - info: [ui] [SignInStore] initializing OAuth flow
+2026-09-12T19:51:43.826Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=900d78c0-0ccc-46af-8826-c2d7df0c8228
+2026-09-12T19:51:43.827Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2026-09-12T19:52:08.632Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T19:54:15.398Z - info: [main] Received possible protocol arguments: 3
+2026-09-12T19:54:17.351Z - info: [main] Processing protocol url
+2026-09-12T19:54:19.780Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T19:54:21.459Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2026-09-12T19:54:39.163Z - info: [ui] [SignInStore] account resolved
+2026-09-12T19:54:39.165Z - info: [ui] [AppStore] adding account GamingEvolutionCentre (Gaming Evolution Centre) to store
+2026-09-12T19:54:46.908Z - info: [main] Received possible protocol arguments: 2
+2026-09-12T19:54:47.897Z - info: [main] Processing protocol url
+2026-09-12T19:54:56.187Z - info: [ui] Subscribed 'GamingEvolutionCentre' to Alive channel
+2026-09-12T19:55:21.449Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2026-09-12T19:55:24.802Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2026-09-12T20:02:59.023Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:03:08.020Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/Backgrounds.git /home/darren/Documents/GitHub/Backgrounds (took 12.959s)
+2026-09-12T20:03:08.477Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/Backgrounds to store
+2026-09-12T20:03:10.786Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.494s)
+2026-09-12T20:03:15.873Z - info: [ui] Executing getBlobContents: git show dcbe8f1b8056ae743ae4eed8963ea48fb7cb7d62:ign-0001.png (took 3.437s)
+2026-09-12T20:03:17.846Z - info: [ui] Executing getBlobContents: git show dcbe8f1b8056ae743ae4eed8963ea48fb7cb7d62:ign-0001.png (took 1.669s)
+2026-09-12T20:03:18.300Z - info: [ui] [BranchPruner] No branches to prune.
+2026-09-12T20:03:44.303Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:03:52.192Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/Arch-Hyprland.git /home/darren/Documents/GitHub/Arch-Hyprland (took 8.821s)
+2026-09-12T20:03:52.386Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/Arch-Hyprland to store
+2026-09-12T20:03:53.560Z - info: [ui] [BranchPruner] Last prune took place 41 seconds ago - skipping
+2026-09-12T20:03:55.897Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:03:56.474Z - info: [ui] [BranchPruner] No branches to prune.
+2026-09-12T20:03:56.565Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.948s)
+2026-09-12T20:03:56.869Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:22.035Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:25.301Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/Linux-Utility.git /home/darren/Documents/GitHub/Linux-Utility (took 3.935s)
+2026-09-12T20:04:25.422Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/Linux-Utility to store
+2026-09-12T20:04:26.808Z - info: [ui] [BranchPruner] Last prune took place 32 seconds ago - skipping
+2026-09-12T20:04:28.087Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:29.170Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.567s)
+2026-09-12T20:04:29.889Z - info: [ui] [BranchPruner] No branches to prune.
+2026-09-12T20:04:29.963Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:45.529Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:46.026Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/OhMyZsh.git /home/darren/Documents/GitHub/OhMyZsh (took 1.240s)
+2026-09-12T20:04:46.087Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/OhMyZsh to store
+2026-09-12T20:04:47.237Z - info: [ui] [BranchPruner] Last prune took place 19 seconds ago - skipping
+2026-09-12T20:04:47.241Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:48.173Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.539s)
+2026-09-12T20:04:48.898Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:04:49.373Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.019s)
+2026-09-12T20:05:03.512Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:05:04.694Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/linuxstuff.git /home/darren/Documents/GitHub/linuxstuff (took 9.013s)
+2026-09-12T20:05:04.738Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/linuxstuff to store
+2026-09-12T20:05:05.639Z - info: [ui] [BranchPruner] Last prune took place 18 seconds ago - skipping
+2026-09-12T20:05:05.826Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:05:06.266Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.479s)
+2026-09-12T20:05:07.240Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.976s)
+2026-09-12T20:05:08.215Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:05:08.772Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.281s)
+2026-09-12T20:05:08.950Z - info: [ui] [BranchPruner] No branches to prune.
+2026-09-12T20:10:40.160Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:10:40.633Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.967s)
+2026-09-12T20:10:40.943Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:23:15.443Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.876s)
+2026-09-12T20:23:15.960Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 3.369s)
+2026-09-12T20:23:18.547Z - info: [ui] Executing getRemotes: git remote -v (took 1.720s)
+2026-09-12T20:23:25.724Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 4.682s)
+2026-09-12T20:23:27.618Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(symref)%00 refs/heads refs/remotes (took 4.733s)
+2026-09-12T20:23:28.103Z - info: [ui] Executing getRecentBranches: git log -g --no-abbrev-commit --pretty=oneline HEAD -n 2500 -- (took 7.374s)
+2026-09-12T20:23:28.103Z - info: [ui] Executing getBranches: git for-each-ref --format=%00%(refname)%00%(refname:short)%00%(upstream:short)%00%(objectname)%00%(symref)%00 refs/heads refs/remotes (took 8.319s)
+2026-09-12T20:23:28.103Z - info: [ui] Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 8.554s)
+2026-09-12T20:23:28.137Z - info: [ui] Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 1.392s)
+2026-09-12T20:23:28.137Z - info: [ui] Executing getSymbolicRef: git symbolic-ref -q refs/remotes/origin/HEAD (took 1.875s)
+2026-09-12T20:23:28.593Z - info: [ui] Executing getConfigValueInPath: git config -z pull.rebase (took 1.104s)
+2026-09-12T20:23:28.828Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 1.522s)
+2026-09-12T20:23:28.829Z - info: [ui] Executing getStashEntries: git log -g -z --format=%gD%x00%H%x00%gs%x00%T%x00%P refs/stash -- (took 1.553s)
+2026-09-12T20:23:28.864Z - info: [ui] Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 1.588s)
+2026-09-12T20:23:31.561Z - info: [ui] Executing getAllTags: git show-ref --tags -d (took 2.555s)
+2026-09-12T20:23:33.068Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 2.650s)
+2026-09-12T20:23:33.068Z - info: [ui] Executing getStashEntries: git log -g -z --format=%gD%x00%H%x00%gs%x00%T%x00%P refs/stash -- (took 2.790s)
+2026-09-12T20:23:33.068Z - info: [ui] Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 2.870s)
+2026-09-12T20:23:33.068Z - info: [ui] Executing getAuthorIdentity: git var GIT_AUTHOR_IDENT (took 2.937s)
+2026-09-12T20:23:33.093Z - info: [ui] Executing getStashEntries: git log -g -z --format=%gD%x00%H%x00%gs%x00%T%x00%P refs/stash -- (took 3.039s)
+2026-09-12T20:23:33.093Z - info: [ui] Executing getCommits: git log origin/main..main --date=raw --max-count=100 -z --format=%H%x00%h%x00%s%x00%b%x00%an <%ae> %ad%x00%cn <%ce> %cd%x00%P%x00%(trailers:unfold,only)%x00%D --no-show-signature --no-color -- (took 3.301s)
+2026-09-12T20:23:33.253Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.586s)
+2026-09-12T20:23:34.940Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.272s)
+2026-09-12T20:23:37.264Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:23:37.831Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.084s)
+2026-09-12T20:23:38.100Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:23:39.032Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 27.4s of which 0.0s paused, total 27.4s
+2026-09-12T20:23:47.792Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:23:51.616Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/SDDM-Themes.git /home/darren/Documents/GitHub/SDDM-Themes (took 4.728s)
+2026-09-12T20:23:51.680Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/SDDM-Themes to store
+2026-09-12T20:23:52.933Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.033s)
+2026-09-12T20:23:53.267Z - info: [ui] [BranchPruner] Last prune took place 19 minutes ago - skipping
+2026-09-12T20:23:55.805Z - info: [ui] [BranchPruner] No branches to prune.
+2026-09-12T20:26:16.921Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.092s)
+2026-09-12T20:27:01.429Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/ChrisTitusTech/dwm-titus/releases#release-0.4 /home/darren/Documents/GitHub/dwm (took 3.700s)
+2026-09-12T20:27:02.508Z - error: [ui] `git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/ChrisTitusTech/dwm-titus/releases#release-0.4 /home/darren/Documents/GitHub/dwm` exited with an unexpected code: 128.
+Cloning into '/home/darren/Documents/GitHub/dwm'...
+fatal: https://github.com/ChrisTitusTech/dwm-titus/releases#release-0.4/info/refs not valid: is this a git repository?
+
+2026-09-12T20:27:10.973Z - error: [ui] `git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/ChrisTitusTech/dwm-titus/releases#release-0.4 /home/darren/Documents/GitHub/dwm` exited with an unexpected code: 128.
+Cloning into '/home/darren/Documents/GitHub/dwm'...
+fatal: https://github.com/ChrisTitusTech/dwm-titus/releases#release-0.4/info/refs not valid: is this a git repository?
+
+2026-09-12T20:33:34.040Z - info: [ui] Executing getConfigValueInPath: git config -z --global init.defaultBranch (took 3.675s)
+2026-09-12T20:33:40.966Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/ChrisTitusTech/dwm-titus/tree/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df /home/darren/Documents/GitHub/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df (took 6.376s)
+2026-09-12T20:33:43.880Z - error: [ui] `git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/ChrisTitusTech/dwm-titus/tree/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df /home/darren/Documents/GitHub/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df` exited with an unexpected code: 128.
+Cloning into '/home/darren/Documents/GitHub/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df'...
+fatal: repository 'https://github.com/ChrisTitusTech/dwm-titus/tree/97f8a2063ee6af6b0a9ae2e17764f1b171d2d7df/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2026-09-12T20:51:58.294Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 13.377s)
+2026-09-12T20:52:17.068Z - info: [ui] Executing getRemotes: git remote -v (took 4.020s)
+2026-09-12T20:52:17.725Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 8.382s)
+2026-09-12T20:52:18.819Z - info: [ui] Executing getConfigValueInPath: git config -z --local user.email (took 2.105s)
+2026-09-12T20:52:18.832Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.310s)
+2026-09-12T20:52:19.433Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2026-09-12T20:52:22.623Z - info: [ui] Executing getRemotes: git remote -v (took 3.034s)
+2026-09-12T20:52:25.064Z - info: [ui] Executing getRemotes: git remote -v (took 2.477s)
+2026-09-12T20:52:25.511Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:27.118Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 7.505s)
+2026-09-12T20:52:29.258Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:32.181Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 3.201s)
+2026-09-12T20:52:32.331Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 4.497s)
+2026-09-12T20:52:34.615Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:35.399Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:36.956Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:37.660Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:52:38.126Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 5 repositories took 71.5s of which 0.0s paused, total 71.5s
+2026-09-12T20:52:59.896Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2026-09-12T20:53:00.728Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:53:01.402Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.511s)
+2026-09-12T20:53:01.958Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:53:22.837Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:53:24.074Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/GamingEvolutionCentre/LinuxStuff.git /home/darren/Documents/GitHub/LinuxStuff (took 2.053s)
+2026-09-12T20:53:24.128Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/LinuxStuff to store
+2026-09-12T20:53:25.805Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.308s)
+2026-09-12T20:53:25.875Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.601s)
+2026-09-12T20:53:25.876Z - info: [ui] Executing getRemotes: git remote -v (took 1.541s)
+2026-09-12T20:53:26.118Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2026-09-12T20:53:27.290Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2026-09-12T20:59:01.920Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:59:02.392Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 2.315s)
+2026-09-12T20:59:02.662Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T20:59:45.608Z - warn: [ui] failed fetching open PRs for repository GamingEvolutionCentre/LinuxStuff
+TypeError: Failed to fetch
+    at Ot (/home/darren/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/darren/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/darren/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchAllOpenPullRequests (/home/darren/webpack:/app/src/lib/api.ts:1142:25)
+    at sZ.constructor.fetchAndStoreOpenPullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at sZ.constructor.fetchAndStorePullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)
+2026-09-12T20:59:46.179Z - error: [ui] Error refreshing pull requests for 'GamingEvolutionCentre/LinuxStuff'
+TypeError: Failed to fetch
+    at Ot (/home/darren/webpack:/app/src/lib/http.ts:152:10)
+    at Yn.request (/home/darren/webpack:/app/src/lib/api.ts:1749:28)
+    at Yn.fetchAll (/home/darren/webpack:/app/src/lib/api.ts:1719:45)
+    at Yn.fetchAllOpenPullRequests (/home/darren/webpack:/app/src/lib/api.ts:1142:25)
+    at sZ.constructor.fetchAndStoreOpenPullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-store.ts:110:28)
+    at sZ.constructor.fetchAndStorePullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/darren/webpack:/app/src/lib/stores/pull-request-coordinator.ts:158:45)
+2026-09-12T20:59:54.704Z - info: [ui] [BranchPruner] Last prune took place 1 hour ago - skipping
+2026-09-12T21:00:08.770Z - info: [ui] [Timing] Action 'create commit' for 'GamingEvolutionCentre/Backgrounds' took 1.505s
+2026-09-12T21:00:13.269Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:00:14.820Z - info: [ui] Executing push: git push origin main:main --progress (took 2.695s)
+2026-09-12T21:00:15.317Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:00:16.135Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:00:51.116Z - info: [ui] Executing getConfigValueInPath: git config -z --global init.defaultBranch (took 1.165s)
+2026-09-12T21:00:52.045Z - info: [ui] [AppStore] adding repository at /home/darren/Documents/GitHub/dwm to store
+2026-09-12T21:04:07.673Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.260s)
+2026-09-12T21:04:44.474Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:04:45.825Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 3.020s)
+2026-09-12T21:04:46.180Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:04:46.926Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2026-09-12T21:04:51.424Z - info: [ui] [BranchPruner] No branches to prune.

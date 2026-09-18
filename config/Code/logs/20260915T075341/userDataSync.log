@@ -1,0 +1,4 @@
+2026-09-15 07:54:34.443 [info] [AutoSync] Using settings sync service https://vscode-sync.trafficmanager.net/
+2026-09-15 07:54:34.443 [info] [AutoSync] Enabled.
+2026-09-15 07:54:34.443 [info] [AutoSync] Suspended until auth token is available.
+2026-09-15 07:54:39.269 [info] Skipping extensions sync because gallery is not configured

@@ -1,0 +1,118 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "e3643b8e9a612a297f9df5408613f6bcda9a6950b8c28f2be480adfd92fd6f6e",
+    "telemetry.devDeviceId": "3364e7a1-50ca-4e97-8097-ac6f3d610f4b",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "ea6fc3de1d54ddfbbbfd264279a9a565",
+                "configURIPath": "file:///home/darren/.config/Code/Workspaces/1789389084238/workspace.json"
+            }
+        ],
+        "folders": [],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/darren/.config/zsh": "__default__profile__",
+            "file:///home/darren/.config/Code/Workspaces/1789389084238/workspace.json": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "ea6fc3de1d54ddfbbbfd264279a9a565",
+                "configURIPath": "file:///home/darren/.config/Code/Workspaces/1789389084238/workspace.json"
+            },
+            "backupPath": "/home/darren/.config/Code/Backups/ea6fc3de1d54ddfbbbfd264279a9a565",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1280,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    },
+    "userDataProfiles": [
+        {
+            "location": "builtin/agents",
+            "name": "Agents",
+            "useDefaultFlags": {
+                "settings": true,
+                "keybindings": true,
+                "prompts": true,
+                "mcp": true,
+                "languageModels": true,
+                "snippets": true,
+                "tasks": true,
+                "extensions": true
+            }
+        }
+    ],
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "9d096a834cf5684bd17a1b53747e7904": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "ec0001cad7725efa66c0b10e5e006c8e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ea6fc3de1d54ddfbbbfd264279a9a565": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

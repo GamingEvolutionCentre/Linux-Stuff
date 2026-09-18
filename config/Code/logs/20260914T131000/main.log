@@ -1,0 +1,15 @@
+2026-09-14 13:10:06.324 [info] StorageMainService: creating application shared storage
+2026-09-14 13:10:12.083 [info] [shared storage] Creating shared storage database at '/home/darren/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-14 13:10:12.092 [info] [shared storage] Initializing fallback application storage (path: /home/darren/.config/Code/User/globalStorage/state.vscdb)
+2026-09-14 13:10:12.901 [info] [shared storage] Fallback application storage initialized with 151 items
+2026-09-14 13:10:20.118 [info] update#disable - updates are disabled by user preference
+2026-09-14 13:10:20.121 [info] update#setState disabled
+2026-09-14 13:10:20.757 [info] AgentHostProcessManager: agent host started
+2026-09-14 13:10:47.820 [error] [AgentHost:stderr] (node:7288) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-14 13:12:49.722 [info] Extension host with pid 7293 exited with code: 0, signal: unknown.
+2026-09-14 13:12:52.116 [error] Extension host with pid 7293 still exists, forcefully killing it...
+2026-09-14 13:12:53.992 [warning] [storage main] detected slow close() operation: Time: 2034ms, DB size: 278528b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10310, extensionsEnablement/malicious:9490, memento/experiment.service.memento:9370
+2026-09-14 13:12:54.587 [warning] [storage main] detected slow close() operation: Time: 2634ms, DB size: 172032b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10473, vscode.github-authentication:2950, memento/customEditors:1685
+2026-09-14 13:12:57.955 [warning] AgentHostProcessManager: agent host did not shut down within 6000ms; terminating it

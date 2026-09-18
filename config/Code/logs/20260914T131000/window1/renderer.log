@@ -1,0 +1,28 @@
+2026-09-14 13:10:19.823 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 22ms.
+2026-09-14 13:10:20.128 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 60ms.
+2026-09-14 13:10:20.190 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-14 13:10:20.377 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 192ms.
+2026-09-14 13:10:20.427 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 32ms.
+2026-09-14 13:10:20.587 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 13:10:20.762 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 32ms.
+2026-09-14 13:10:25.057 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 13:10:25.398 [info] Started local extension host with pid 7293.
+2026-09-14 13:10:30.467 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:10:36.423 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:10:44.554 [info] [perf] Render performance baseline is -1ms
+2026-09-14 13:10:47.080 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:10:47.943 [info] Extension host (LocalProcess pid: 7293) is responsive.
+2026-09-14 13:10:52.924 [info] [AgentHost:renderer] Protocol connection established; clientId=cf20b30e-72c0-4408-84f0-f0b13b60485b
+2026-09-14 13:10:54.521 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:11:06.583 [info] Extension host (LocalProcess pid: 7293) is responsive.
+2026-09-14 13:11:07.014 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-14 13:11:10.012 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:11:44.973 [error] [Extension Host] (node:7293) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 13:11:45.728 [info] Extension host (LocalProcess pid: 7293) is responsive.
+2026-09-14 13:11:46.691 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:11:47.660 [info] Extension host (LocalProcess pid: 7293) is responsive.
+2026-09-14 13:11:54.080 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:12:33.600 [info] Extension host (LocalProcess pid: 7293) is responsive.
+2026-09-14 13:12:48.295 [info] Extension host (LocalProcess pid: 7293) is unresponsive.
+2026-09-14 13:12:48.296 [info] Extension host (LocalProcess pid: 7293) is responsive.

@@ -1,0 +1,91 @@
+2026-09-13 17:51:13.558 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:13.624 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 70ms.
+2026-09-13 17:51:13.680 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 22ms.
+2026-09-13 17:51:13.815 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 17:51:13.829 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 21ms.
+2026-09-13 17:51:14.775 [warning] No harness descriptor found for session type file
+2026-09-13 17:51:15.879 [info] [AgentsHandoff] IPC received: folderUri=(none) sessionResource=(none)
+2026-09-13 17:51:15.957 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 17:51:16.175 [info] Started local extension host with pid 32941.
+2026-09-13 17:51:16.254 [info] [AgentHost:renderer] Protocol connection established; clientId=7b48f289-f7dc-4e72-89dd-7045da17c3f1
+2026-09-13 17:51:20.625 [info] [ChangesetOperationsActionController] Primary pull request operation: none
+2026-09-13 17:51:21.068 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:21.077 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:22.222 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: byokModelsEnabled=false (chat.agentHost.byokModels.enabled)
+2026-09-13 17:51:26.585 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:26.630 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:26.750 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:51:30.847 [info] [AgentMergeActions] Session state: session=none, enabled=false, authorizedActions=[addressReviews, fixCI, resolveConflicts], mergePullRequest=never
+2026-09-13 17:51:30.851 [warning] Creation of workbench contribution 'workbench.contrib.configurationMigration' took 159ms.
+2026-09-13 17:51:35.932 [info] [perf] Render performance baseline is 885ms
+2026-09-13 17:51:36.425 [info] Extension host (LocalProcess pid: 32941) is unresponsive.
+2026-09-13 17:52:15.320 [info] Extension host (LocalProcess pid: 32941) is responsive.
+2026-09-13 17:52:17.892 [warning] [chat-stt] could not refresh GitHub session state for cloud dictation Canceled
+2026-09-13 17:52:17.893 [warning] [chat-stt] could not refresh GitHub session state for cloud dictation Canceled
+2026-09-13 17:52:17.894 [error] Canceled: Canceled
+    at W_ (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:411:1624)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47552
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47460)
+    at dq.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:60800)
+    at Owo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:10622)
+    at Nwo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:9762)
+    at async QPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4842:22956)
+2026-09-13 17:52:17.896 [error] Canceled: Canceled
+    at W_ (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:411:1624)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47552
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47460)
+    at dq.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:60800)
+    at Owo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:10622)
+    at Nwo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:9762)
+    at async QPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4842:22956)
+2026-09-13 17:52:17.905 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-09-13 17:52:17.909 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.912 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.914 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.915 [error] Canceled: Canceled
+    at W_ (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:411:1624)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47552
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:47460)
+    at dq.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:60800)
+    at Owo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:10622)
+    at Nwo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4843:9762)
+    at async QPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4842:22956)
+2026-09-13 17:52:17.917 [error] Canceled: Canceled
+    at new fxi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:45880)
+    at s._remoteCall (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:51998)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:48743)
+    at OQt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:87628)
+    at Pmt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:77448)
+    at Pmt.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:76682)
+    at Amt._addExtensionsToCache (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:68555)
+    at Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:67608)
+    at kg.consume (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77668)
+    at kg.consumed (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77877)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77710
+2026-09-13 17:52:17.918 [error] Canceled: Canceled
+    at new fxi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:45880)
+    at s._remoteCall (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:51998)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:4836:48743)
+    at OQt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:87628)
+    at Pmt.getSessions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:77448)
+    at Pmt.getAccounts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1220:76682)
+    at Bmt._addToCache (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1221:42597)
+    at Object.factory (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1221:41684)
+    at kg.consume (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77668)
+    at kg.consumed (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77877)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:434:77710
+2026-09-13 17:52:17.919 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:17.920 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:17.921 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:17.922 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.923 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.924 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 17:52:17.925 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:17.926 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:17.927 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 17:52:18.707 [warning] [DefaultAccount] Attempt 2 to get sessions failed: Canceled
+2026-09-13 17:52:18.711 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
+2026-09-13 17:52:19.124 [warning] No harness descriptor found for session type agent-host-copilotcli

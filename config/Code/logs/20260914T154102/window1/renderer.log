@@ -1,0 +1,58 @@
+2026-09-14 15:41:31.297 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2026-09-14 15:41:31.565 [warning] Creation of workbench contribution 'workbench.contrib.chatSpeechToTextInit' took 89ms.
+2026-09-14 15:41:31.593 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-14 15:41:31.607 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 27ms.
+2026-09-14 15:41:31.657 [warning] Creation of workbench contribution 'workbench.contrib.chatLanguageModelsData' took 50ms.
+2026-09-14 15:41:31.879 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 195ms.
+2026-09-14 15:41:31.946 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 15:41:34.573 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 15:41:34.693 [info] Started local extension host with pid 10752.
+2026-09-14 15:41:36.690 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 15:41:37.455 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 126ms.
+2026-09-14 15:41:41.644 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 15:41:45.646 [error] TypeError: Failed to fetch
+    at PRn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:53099)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54395
+    at uMt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1026:11067)
+    at uMt.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54375)
+    at rit.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3750)
+    at rit.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3643)
+    at new rit (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3474)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at s.safeCreateContribution (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:47103)
+    at l (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:46704)
+2026-09-14 15:42:08.223 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:42:10.744 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:42:18.598 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:42:29.582 [info] [RemoteAgentHostProtocol] Transport lost while connecting to local; scheduling a fresh initialize.
+2026-09-14 15:42:29.583 [info] [RemoteAgentHostProtocol] Reconnecting to local in 1000ms (attempt 1).
+2026-09-14 15:42:29.584 [error] [AgentHost:renderer] Protocol connection failed Channel name 'agentHostProtocol' timed out after 1000ms
+2026-09-14 15:42:29.741 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 15:42:29.751 [info] [RemoteAgentHostProtocol] Transport lost for local mid-reconnect; aborting the current attempt.
+2026-09-14 15:42:30.089 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 15:42:31.079 [info] [perf] Render performance baseline is 371ms
+2026-09-14 15:42:31.088 [warning] [RemoteAgentHostProtocol] Request 1 failed: {"code":-32008,"message":"Reconnect client not found: 004425db-cb40-417f-b5ca-4b10fe1c41d8"}
+2026-09-14 15:42:31.090 [info] [RemoteAgentHostProtocol] Server forgot client 004425db-cb40-417f-b5ca-4b10fe1c41d8; initializing a fresh connection.
+2026-09-14 15:42:31.214 [info] [AgentHost:renderer] Protocol connection established; clientId=004425db-cb40-417f-b5ca-4b10fe1c41d8
+2026-09-14 15:42:31.220 [info] [RemoteAgentHostProtocol] Reconnected to local.
+2026-09-14 15:43:17.421 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:43:18.341 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:43:21.205 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:43:21.206 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 15:43:22.414 [error] [Extension Host] (node:10752) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 15:43:26.359 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:43:28.970 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 15:43:29.352 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:43:29.989 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-14 15:43:42.655 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:43:45.566 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 15:43:45.626 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:43:45.627 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 15:44:02.381 [info] Extension host (LocalProcess pid: 10752) is unresponsive.
+2026-09-14 15:44:07.078 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 15:44:07.681 [info] Extension host (LocalProcess pid: 10752) is responsive.
+2026-09-14 15:44:08.185 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 15:44:09.896 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-14 15:44:10.036 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos

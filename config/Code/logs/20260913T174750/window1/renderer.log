@@ -1,0 +1,285 @@
+2026-09-13 17:48:03.712 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 17:48:03.765 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 72ms.
+2026-09-13 17:48:03.804 [warning] Creation of workbench contribution 'workbench.contrib.chatLanguageModelsData' took 25ms.
+2026-09-13 17:48:03.842 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 40ms.
+2026-09-13 17:48:04.006 [warning] Creation of workbench contribution 'workbench.contrib.localHistoryTimeline' took 45ms.
+2026-09-13 17:48:04.038 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 17:48:08.426 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 17:48:08.585 [info] Started local extension host with pid 32840.
+2026-09-13 17:48:08.839 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 17:48:13.850 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 17:48:14.578 [warning] MCP migration: Failed to parse MCP config from vscode-userdata:/home/darren/.config/Code/User/settings.json: Expected ',' or '}' after property value in JSON at position 322 (line 10 column 5)
+2026-09-13 17:48:28.456 [info] [AgentHost:renderer] Protocol connection established; clientId=85655595-c70a-4bb8-9b8b-f5cc5b4d7a37
+2026-09-13 17:48:32.446 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 17:48:33.941 [info] [perf] Render performance baseline is -1ms
+2026-09-13 17:48:36.597 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 17:48:42.610 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 17:48:43.286 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 17:48:43.607 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-13 17:48:49.294 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 17:48:52.642 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 17:48:52.853 [error] [Extension Host] (node:32840) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-13 17:48:58.828 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 17:49:01.560 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 17:49:03.394 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-13 17:49:03.595 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-13 17:50:58.645 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-13 18:27:21.457 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 18:27:24.872 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 18:30:59.684 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 18:30:59.854 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 18:38:00.272 [info] Extension host (LocalProcess pid: 32840) is unresponsive.
+2026-09-13 18:38:01.680 [info] Extension host (LocalProcess pid: 32840) is responsive.
+2026-09-13 18:42:37.043 [error] Error while handling chat request: Canceled: Canceled: Canceled
+    at Yw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:411:1620)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5647:47553
+    at Array.forEach (<anonymous>)
+    at s.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5647:47461)
+    at Iq.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5647:60801)
+    at tIo.dispose (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5654:10621)
+    at eIo.stopAllInReverse (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5654:9761)
+    at async tPt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5653:22956)
+2026-09-13 18:42:40.961 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatEditingSession, join.workingCopyHistory
+2026-09-13 18:43:09.281 [warning] Creation of workbench contribution 'workbench.contrib.extensionPoints' took 25ms.
+2026-09-13 18:43:09.331 [warning] Creation of workbench contribution 'workbench.contributions.defaultAccountProvider' took 35ms.
+2026-09-13 18:43:09.399 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 70ms.
+2026-09-13 18:43:09.477 [warning] Creation of workbench contribution 'workbench.contrib.chatResolver' took 22ms.
+2026-09-13 18:43:09.693 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 110ms.
+2026-09-13 18:43:09.729 [warning] Creation of workbench contribution 'workbench.contrib.extensionGalleryAccountProvider' took 28ms.
+2026-09-13 18:43:09.808 [warning] Creation of workbench contribution 'workbench.contrib.textMateTokenizationInstantiator' took 43ms.
+2026-09-13 18:43:09.895 [warning] Creation of workbench contribution 'workbench.contrib.promptsDebug' took 22ms.
+2026-09-13 18:43:09.917 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 18:43:09.921 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 24ms.
+2026-09-13 18:43:09.986 [warning] Creation of workbench contribution 'workbench.contrib.chatLanguageModelsData' took 62ms.
+2026-09-13 18:43:10.194 [warning] Creation of workbench contribution 'workbench.contrib.chatPromptFilesExtensionPointHandler' took 210ms.
+2026-09-13 18:43:10.271 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 75ms.
+2026-09-13 18:43:10.366 [warning] Creation of workbench contribution 'workbench.contrib.chatTransfer' took 54ms.
+2026-09-13 18:43:10.397 [warning] Creation of workbench contribution 'workbench.contrib.chatPetContext' took 27ms.
+2026-09-13 18:43:10.476 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 37ms.
+2026-09-13 18:43:10.508 [warning] Creation of workbench contribution 'workbench.contrib.bulkEditPreview' took 29ms.
+2026-09-13 18:43:10.576 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 35ms.
+2026-09-13 18:43:10.601 [warning] Creation of workbench contribution 'workbench.contrib.workspaceTrustRequestHandler' took 23ms.
+2026-09-13 18:43:10.699 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 18:43:10.762 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 116ms.
+2026-09-13 18:43:13.095 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-13 18:43:17.549 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 18:43:25.820 [info] Started local extension host with pid 33877.
+2026-09-13 18:43:25.822 [info] [AgentHost:renderer] Protocol connection established; clientId=0d60124c-2611-4a66-84ef-c7b793b7084e
+2026-09-13 18:43:26.859 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 18:43:32.422 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 18:43:41.091 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-13 18:43:41.312 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-13 18:43:43.567 [warning] Creation of workbench contribution 'terminal.chatAgentTools' took 138ms.
+2026-09-13 18:43:43.750 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-13 18:43:44.697 [warning] Creation of workbench contribution 'workbench.contrib.authentication' took 122ms.
+2026-09-13 18:43:47.586 [warning] Creation of workbench contribution 'browserView.chatAgentTools' took 241ms.
+2026-09-13 18:43:48.151 [warning] Creation of workbench contribution 'workbench.contrib.systemWideKeybindings' took 179ms.
+2026-09-13 18:43:49.798 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 18:43:51.541 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 18:43:52.044 [warning] Creation of workbench contribution 'chat.promptLanguageFeatures' took 391ms.
+2026-09-13 18:43:54.499 [warning] Creation of workbench contribution 'workbench.contrib.chatRepoInfo' took 259ms.
+2026-09-13 18:43:54.914 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 18:43:57.165 [info] [perf] Render performance baseline is 371ms
+2026-09-13 18:43:57.348 [warning] Creation of workbench contribution 'workbench.contrib.emergencyAlert' took 102ms.
+2026-09-13 18:44:07.018 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 18:44:08.369 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 18:44:08.377 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 18:44:12.375 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 18:44:14.293 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 83.40225659876448% of 32.672ms, saved PROFILE here: 'file:///tmp/exthost-412445.cpuprofile'
+2026-09-13 18:44:17.139 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 18:44:18.343 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 18:44:19.773 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 18:44:19.777 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 18:44:22.021 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 83.77350412725127% of 1248.407ms, saved PROFILE here: 'file:///tmp/exthost-d9ae33.cpuprofile'
+2026-09-13 18:44:26.423 [error] [Extension Host] (node:33877) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-13 18:48:13.393 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.137/commands/latest.txt
+2026-09-13 18:48:13.409 [error] [Extension Host] Response status: 404, status text: 
+2026-09-13 18:48:13.422 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.137/commands/core.json
+2026-09-13 18:48:13.427 [error] [Extension Host] Response status: 404, status text: 
+2026-09-13 18:48:54.255 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: onboarding.developerMode, onboarding.developerModeVariations, onboarding.enabled, extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, terminal.integrated.enableKittyKeyboardProtocol, terminal.integrated.enableWin32InputMode, chat.defaultToCopilotHarness, chat.agentHost.byokModels.enabled, chat.agentHost.claudeAgent.enabled, chat.agentHost.codexAgent.enabled, chat.agentHost.experimental.activeAgentTitleGeneration, chat.agentHost.experimental.markdownPlanRichLinks, chat.agentHost.githubMcpServer.enabled, chat.agentHost.otel.captureContent, chat.agentHost.otel.dbSpanExporter.enabled, chat.agentHost.otel.enabled, chat.agentHost.otel.exporterType, chat.agentHost.otel.otlpEndpoint, chat.agentHost.otel.outfile, chat.agentHost.systemProxy.enabled, chat.agentMerge.addressReviews, chat.agentMerge.enabled, chat.agentMerge.fixCI, chat.agentMerge.mergeMethod, chat.agentMerge.mergePullRequest, chat.agentMerge.replyAttribution, chat.agentMerge.resolveConflicts, chat.artifactTools.enabled, chat.stickyScroll.enabled, sessions.chatTimeline.display, chat.agentHost.agentDebugLog.enabled, chat.agentHost.agentDebugLog.maxEventsInMemory, chat.agentHost.ahpJsonlLoggingEnabled, chat.agentHost.allowSignedOutWhenUsable, chat.agentHost.copilot.autoModeTiers.enabled, chat.agentHost.copilot.mapLegacySettingsToManagedSettings, chat.agentHost.copilot.modelCapabilityOverrides, chat.agentHost.copilot.multiTurnContextRouting.enabled, chat.agentHost.copilot.reasoningEffortOverride, chat.agentHost.copilot.reasoningSummary.enabled, chat.agentHost.copilot.toolSearch.deferThreshold, chat.agentHost.copilot.toolSearch.enabled, chat.agentHost.copilotSdk.logLevel, chat.agentHost.customTerminalTool.enabled, chat.agentHost.opus48Prompt.enabled, chat.agentHost.sdkSandbox.enabled, chat.agentHost.sdkSandbox.enabledWindows, chat.agentHost.shellTool.initScript.enabled, chat.agentSessions.consolidatedRemoteWorkspaces, chat.agentSessions.migrateLegacyCopilotCli, chat.agentSessions.showExternal, chat.agentsHandoffTip.mode, chat.artifacts.enabled, chat.artifacts.rules.byFilePath, chat.artifacts.rules.byMemoryFilePath, chat.artifacts.rules.byMimeType, chat.assistedPermissions.enabled, chat.autopilot.advanced.enabled, chat.autoReply, chat.byokUtilityModelDefault, chat.contextUsage.enabled, chat.copilot.semanticSearch.enabled, chat.copilot.subagentModelGuidance.enabled, chat.customizations.locationsMigration.enabled, chat.customizations.migrationHint, chat.customizations.promptMigration.enabled, chat.customizations.structuredPreview.enabled, chat.customizations.userDataMigration.enabled, chat.defaultConfiguration, chat.defaultModel, chat.editing.openChangedFileInDiffEditor, chat.editing.revealNextChangeOnResolve, chat.experimental.collectInstructionsInExtension, chat.experimental.incrementalRendering.animationStyle, chat.experimental.incrementalRendering.buffering, chat.experimental.incrementalRendering.enabled, chat.experimental.openInAgentsWindow.revealCurrentSession, chat.experimental.permissionsSandboxToggle.enabled, chat.experimental.richLinks.enabled, chat.experimental.sessionArchiveActionWording, chat.experimental.sessionStateIndicator.enabled, chat.experimental.stickyScroll.enabled, chat.experimentalModelPicker, chat.experimentalSessionsWindowOverride, chat.exploreAgent.defaultModel, chat.growthNotification.enabled, chat.inlineChat.agentHost.enabled, chat.microsoftAuthentication.enabled, chat.newSession.defaultMode, chat.pasteAsAttachmentThreshold, chat.permissions.default, chat.pluginLocations, chat.plugins.enabled, chat.plugins.enabledPlugins, chat.plugins.marketplaces, chat.plugins.strictMarketplaces, chat.progressBorder.enabled, chat.saveBeforeSend, chat.sessionSync.enabled, chat.sessionSync.excludeRepositories, chat.subagents.allowInvocationsFromSubagents, chat.subagents.defaultToAuto, chat.subagents.showCreditUsage, chat.subagents.useRichRendering, chat.terminal.agentHost.enabled, chat.titleBar.openInAgentsWindow.enabled, chat.titleBar.signIn.enabled, chat.tools.riskAssessment.model, chat.turnStatusPills, chat.upvoteAnimation, chat.useClaudeHooks, chat.useCustomizationsInParentRepositories, chat.utilityModel, chat.utilitySmallModel, chat.verbose, dictation.enabled, dictation.experimental.llmCleanup, dictation.experimental.llmCleanupModel, dictation.model, dictation.showButton, dictation.showTranscript, agents.voice.agentProgress, agents.voice.enabled, agents.voice.handsFree, agents.voice.language, agents.voice.liveTranscript, agents.voice.showButton, agents.voice.showTranscript, agents.voice.speakResponses, agents.voice.turn.silenceMs, agents.voice.turn.stopPhrases, agents.voice.voice, imageCarousel.chat.enabled, imageCarousel.explorerContextMenu.enabled, accessibility.signals.chatResponseReceived, accessibility.signals.chatUserActionRequired, issueReporter.wizard.enabled, issueReporter.wizard.fullWorkspaceScan
+2026-09-13 19:01:29.087 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:01:29.877 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:01:29.878 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:02:02.700 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:06:52.982 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:06:54.269 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:06:54.272 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:07:12.982 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:08:53.603 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:09:00.201 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:09:00.202 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:09:01.154 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:09:05.624 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 64.88046166529266% of 14.953ms, saved PROFILE here: 'file:///tmp/exthost-ea915a.cpuprofile'
+2026-09-13 19:14:17.272 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:14:17.431 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:14:17.432 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:14:31.422 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:16:34.894 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:16:36.351 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:16:36.353 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:16:42.932 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:23:25.810 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:23:30.092 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:23:30.095 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:23:51.364 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:24:59.073 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:24:59.676 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:24:59.678 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:25:04.476 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:29:22.276 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:29:22.636 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 19:29:26.462 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 19:29:27.560 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 19:29:28.758 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:29:28.759 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:29:30.174 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 19:32:47.399 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 19:32:53.492 [error] An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}: Error: An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}
+	at Object.t [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1084:3632)
+	at hhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:13671)
+	at fA._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:16635)
+	at async fA._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:17213)
+	at async fA.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:15141)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14594)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.doGetNextEditsWithCursorJump (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:2702)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14966)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:5649)
+	at async nN._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:15537)
+	at async nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:10648)
+	at async nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4911)
+	at async nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2645)
+2026-09-13 19:53:09.434 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 19:53:09.815 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 19:53:09.817 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 19:53:10.384 [error] [DefaultAccount] request: error Canceled: Canceled https://api.github.com/copilot_internal/managed_settings?client_id=vscode&client_version=1.137.0&copilot_runtime_version=1.0.84-canary.70.gdb75d0d.unsigned
+2026-09-13 19:53:13.797 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 20:39:58.537 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:40:02.859 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:40:06.326 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:40:10.338 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:40:57.497 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 20:41:59.880 [info] Extension host (LocalProcess pid: 33877) is unresponsive.
+2026-09-13 20:42:02.591 [info] Extension host (LocalProcess pid: 33877) is responsive.
+2026-09-13 20:42:02.592 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 20:42:06.522 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 20:42:25.698 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:42:47.689 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:43:12.755 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:43:17.894 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-09-13 20:43:25.744 [error] [Extension Host] Error: Git error
+	at ChildProcess.o (/usr/share/code/resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-13 20:43:26.798 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 20:46:57.990 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 20:47:01.107 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 20:49:19.084 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 20:54:56.555 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 20:56:26.034 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 21:07:34.707 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 21:09:25.141 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 21:38:19.011 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-13 22:35:03.696 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 23:05:19.503 [info] Started local extension host with pid 43307.
+2026-09-13 23:05:35.750 [info] Extension host (LocalProcess pid: 43307) is unresponsive.
+2026-09-13 23:05:35.978 [info] Extension host (LocalProcess pid: 43307) is responsive.
+2026-09-13 23:05:35.980 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:05:39.017 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:05:43.349 [warning] UNRESPONSIVE extension host: 'vscode.microsoft-authentication' took 100% of 11.314ms, saved PROFILE here: 'file:///tmp/exthost-29e16b.cpuprofile'
+2026-09-13 23:05:53.806 [info] Extension host (LocalProcess pid: 43307) is unresponsive.
+2026-09-13 23:05:56.261 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:06:02.173 [info] Extension host (LocalProcess pid: 43307) is responsive.
+2026-09-13 23:06:02.177 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:06:04.391 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 49.23489256460111% of 3261.241ms, saved PROFILE here: 'file:///tmp/exthost-258eab.cpuprofile'
+2026-09-13 23:06:05.614 [error] [Extension Host] (node:43307) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-13 23:06:14.365 [info] Extension host (LocalProcess pid: 43307) is unresponsive.
+2026-09-13 23:06:15.720 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:06:15.877 [info] Extension host (LocalProcess pid: 43307) is responsive.
+2026-09-13 23:06:15.878 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:06:51.601 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.137/commands/latest.txt
+2026-09-13 23:06:51.634 [error] [Extension Host] Response status: 404, status text: 
+2026-09-13 23:06:51.680 [error] [Extension Host] Failed to fetch remote embeddings cache from https://embeddings.vscode-cdn.net/text-3-small/v1.137/commands/core.json
+2026-09-13 23:06:51.700 [error] [Extension Host] Response status: 404, status text: 
+2026-09-13 23:10:10.090 [info] Started local extension host with pid 43484.
+2026-09-13 23:10:17.993 [info] Extension host (LocalProcess pid: 43484) is unresponsive.
+2026-09-13 23:10:18.177 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 23:10:20.095 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:10:24.889 [info] Extension host (LocalProcess pid: 43484) is responsive.
+2026-09-13 23:10:24.891 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:10:31.020 [info] Extension host (LocalProcess pid: 43484) is unresponsive.
+2026-09-13 23:10:32.595 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:10:34.130 [info] Extension host (LocalProcess pid: 43484) is responsive.
+2026-09-13 23:10:34.139 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:10:36.263 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 79.1531044706759% of 1236.567ms, saved PROFILE here: 'file:///tmp/exthost-93b6ad.cpuprofile'
+2026-09-13 23:10:42.484 [error] [Extension Host] (node:43484) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-13 23:10:48.696 [info] Extension host (LocalProcess pid: 43484) is unresponsive.
+2026-09-13 23:10:59.608 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:10:59.912 [info] Extension host (LocalProcess pid: 43484) is responsive.
+2026-09-13 23:10:59.915 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:12:26.175 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1146:46694
+2026-09-13 23:12:26.781 [info] Extension host (LocalProcess pid: 43484) is unresponsive.
+2026-09-13 23:12:33.013 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-13 23:12:33.093 [info] Extension host (LocalProcess pid: 43484) is responsive.
+2026-09-13 23:12:33.096 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-13 23:12:36.530 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 47.01651122272643% of 331.654ms, saved PROFILE here: 'file:///tmp/exthost-0af90b.cpuprofile'
+2026-09-13 23:37:58.952 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage, join.chatEditingSession
+2026-09-13 23:38:25.600 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 106ms.
+2026-09-13 23:38:25.906 [warning] Creation of workbench contribution 'workbench.contrib.registerCellSchemas' took 268ms.
+2026-09-13 23:38:26.401 [warning] Creation of workbench contribution 'workbench.contrib.chatResolver' took 495ms.
+2026-09-13 23:38:26.444 [warning] Creation of workbench contribution 'workbench.contrib.chatExtensionPointHandler' took 42ms.
+2026-09-13 23:38:26.642 [warning] Creation of workbench contribution 'workbench.contrib.toolsExtensionPointHandler' took 197ms.
+2026-09-13 23:38:26.730 [warning] Creation of workbench contribution 'workbench.chat.agentHostOpenSessionLinkOpener' took 85ms.
+2026-09-13 23:38:26.775 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 44ms.
+2026-09-13 23:38:26.817 [warning] Creation of workbench contribution 'workbench.contrib.textFileSaveErrorHandler' took 39ms.
+2026-09-13 23:38:26.858 [warning] Creation of workbench contribution 'workbench.contrib.dirtyFilesIndicator' took 40ms.
+2026-09-13 23:38:27.238 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 363ms.
+2026-09-13 23:38:27.280 [warning] Creation of workbench contribution 'workbench.contrib.dialogHandler' took 41ms.
+2026-09-13 23:38:27.342 [warning] Creation of workbench contribution 'workbench.contrib.nativeWorkingCopyBackupTracker' took 45ms.
+2026-09-13 23:38:27.402 [warning] Creation of workbench contribution 'workbench.contrib.localTerminalBackend' took 59ms.
+2026-09-13 23:38:27.468 [warning] Creation of workbench contribution 'workbench.contrib.editorStatus' took 49ms.
+2026-09-13 23:38:27.678 [warning] Creation of workbench contribution 'workbench.contrib.textMateTokenizationInstantiator' took 209ms.
+2026-09-13 23:38:27.723 [warning] Creation of workbench contribution 'workbench.contribution.notebookOutputEditorContribution' took 35ms.
+2026-09-13 23:38:27.878 [warning] Creation of workbench contribution 'workbench.contrib.promptsDebug' took 102ms.
+2026-09-13 23:38:27.924 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-13 23:38:27.927 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 84ms.
+2026-09-13 23:38:27.963 [warning] Creation of workbench contribution 'workbench.contrib.chatLanguageModelsData' took 31ms.
+2026-09-13 23:38:28.370 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 408ms.
+2026-09-13 23:38:28.536 [warning] Creation of workbench contribution 'workbench.contrib.chatStatusBarEntry' took 143ms.
+2026-09-13 23:38:28.569 [warning] Creation of workbench contribution 'workbench.contrib.chatTransfer' took 21ms.
+2026-09-13 23:38:28.651 [warning] Creation of workbench contribution 'workbench.contrib.promptUrlHandler' took 77ms.
+2026-09-13 23:38:29.216 [warning] Creation of workbench contribution 'workbench.contrib.chatPetContext' took 478ms.
+2026-09-13 23:38:29.348 [warning] Creation of workbench contribution 'mcpResourceFilesystem' took 215ms.
+2026-09-13 23:38:29.470 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 118ms.
+2026-09-13 23:38:29.551 [warning] Creation of workbench contribution 'workbench.contrib.localHistoryTimeline' took 39ms.
+2026-09-13 23:38:29.579 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 24ms.
+2026-09-13 23:38:29.603 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 23:38:29.701 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 38ms.
+2026-09-13 23:38:45.342 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 23:38:45.891 [info] Started local extension host with pid 46336.
+2026-09-13 23:38:47.358 [info] [AgentHost:renderer] Protocol connection established; clientId=bf863d1e-3569-4427-b545-497da6e44b1c
+2026-09-13 23:38:47.481 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 23:38:53.936 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 23:39:03.286 [info] Extension host (LocalProcess pid: 46336) is unresponsive.
+2026-09-13 23:39:03.859 [warning] Creation of workbench contribution 'workbench.contrib.agentHostTerminal' took 105ms.
+2026-09-13 23:39:05.679 [info] Extension host (LocalProcess pid: 46336) is responsive.
+2026-09-13 23:39:06.198 [error] Error fetching chat session input state Canceled
+2026-09-13 23:39:06.202 [error] Error fetching chat session input state Canceled
+2026-09-13 23:39:06.244 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 23:39:06.262 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-09-13 23:39:06.273 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-09-13 23:39:06.274 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication

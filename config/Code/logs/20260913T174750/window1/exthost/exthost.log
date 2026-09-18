@@ -1,0 +1,206 @@
+2026-09-13 17:48:23.851 [info] Extension host with pid 32840 started
+2026-09-13 17:48:27.728 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 17:48:27.943 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 17:48:28.609 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-09-13 17:48:35.561 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 17:48:35.767 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 17:48:36.146 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 17:48:36.534 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-13 17:48:44.294 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 17:48:44.465 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 17:48:44.787 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-13 17:48:45.393 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-13 17:48:45.762 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-13 17:48:54.840 [info] Eager extensions activated
+2026-09-13 17:49:15.152 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-13 17:49:15.480 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-09-13 17:52:53.508 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:skill'
+2026-09-13 18:42:16.265 [info] Extension host terminating: received terminate message from renderer
+2026-09-13 18:42:32.530 [info] Extension host with pid 32840 exiting with code 0
+2026-09-13 18:43:31.446 [info] Extension host with pid 33877 started
+2026-09-13 18:43:31.464 [info] Skipping acquiring lock for /home/darren/.config/Code/User/workspaceStorage/ec0001cad7725efa66c0b10e5e006c8e.
+2026-09-13 18:43:33.224 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 18:43:33.479 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 18:43:33.715 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-13 18:43:35.045 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-13 18:43:36.117 [info] Eager extensions activated
+2026-09-13 18:43:36.763 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 18:43:36.966 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 18:43:45.221 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-13 18:43:56.416 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 18:43:56.662 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 18:44:02.285 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-09-13 18:44:02.838 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilotcli'
+2026-09-13 18:44:08.626 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 19:32:47.277 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}
+
+Error: An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}
+	at Object.t [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1084:3632)
+	at hhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:13671)
+	at fA._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:16635)
+	at async fA._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:17213)
+	at async fA.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:15141)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14594)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.doGetNextEditsWithCursorJump (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:2702)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14966)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:5649)
+	at async nN._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:15537)
+	at async nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:10648)
+	at async nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4911)
+	at async nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2645)
+	at Timeout._onTimeout (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:3:12)
+	at listOnTimeout (node:internal/timers:605:17)
+	at process.processTimers (node:internal/timers:541:7)
+2026-09-13 19:32:48.278 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}
+	at Object.t [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1084:3632)
+	at hhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:13671)
+	at fA._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:16635)
+	at async fA._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:17213)
+	at async fA.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:15141)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14594)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.doGetNextEditsWithCursorJump (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:2702)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14966)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:5649)
+	at async nN._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:15537)
+	at async nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:10648)
+	at async nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4911)
+	at async nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2645)
+2026-09-13 19:32:53.429 [error] [GitHub.copilot-chat] provider FAILED
+2026-09-13 19:32:53.429 [error] Error: An unexpected error occurred: {"type":"networkError","reason":"Please check your firewall rules and network connection then try again. Error Code: net::ERR_NETWORK_CHANGED.","reasonDetail":"net::ERR_NETWORK_CHANGED: : {\"drain_error\":-21,\"drain_description\":\"Closing current sessions.\",\"rst_stream_error\":8,\"rst_stream_error_details\":15,\"rst_stream_description\":\"\",\"error_source\":\"Http2Stream\",\"proxy_schemes\":[\"direct\"],\"in_flight_write\":{},\"buffered_spdy_framer\":{\"frames_received\":156,\"has_error\":false,\"message_fully_read\":false},\"session_state\":{\"availability_state\":\"Draining\",\"session_send_window\":2147483647,\"session_recv_window\":15728640,\"stream_initial_send_window\":67108864,\"stream_initial_recv_window\":6291456,\"send_stalled_by_session_window\":false,\"active_stream_count\":0,\"created_stream_count\":0,\"max_concurrent_streams\":100,\"highest_stream_id_sent\":69,\"frames_sent\":83,\"frames_received\":156,\"ping_in_flight\":false,\"last_ping_sent_ms\":3846,\"next_ping_id\":4,\"failed_ping_count\":0,\"support_websocket\":true,\"deprecate_http2_priorities\":false,\"streams_initiated_count\":34,\"streams_abandoned_count\":1,\"read_state\":\"DoRead\",\"write_state\":\"Idle\",\"pending_create_stream_request_count\":0,\"error\":-21,\"error_on_unavailable\":-21,\"unacked_recv_window_bytes\":2233,\"last_good_stream_id\":0,\"debug_stream_id\":0,\"has_ping_based_connection_checking\":true,\"num_broken_connection_detection_requests\":0,\"session_max_queued_capped_frames\":10000,\"num_queued_capped_frames\":0,\"check_ping_status_pending\":true,\"in_confirm_handshake\":false,\"http2_end_stream_with_data_frame\":false,\"reused\":true,\"session_max_recv_window_size\":15728640,\"max_header_table_size\":65536,\"time_since_last_read_ms\":157,\"time_since_last_write_ms\":185,\"time_since_last_recv_window_update_ms\":3657},\"tls_info\":{\"is_secure_connection\":true,\"ssl_version\":\"0x0006\",\"cipher_suite\":\"0x1303\",\"negotiated_alpn\":\"h2\",\"cert_status\":0,\"is_issued_by_known_root\":true,\"handshake_type\":2,\"client_cert_sent\":false,\"exchange_group\":29,\"ct_compliance\":4,\"alps_negotiated\":false},\"socket_info\":{\"is_connected\":true,\"was_ever_used\":true,\"owned_socket\":false,\"socket_reuse_type\":0},\"url_loader_error\":{\"is_request_error\":true,\"network_process_crashed\":false},\"active_stream_details\":[],\"closed_stream_details\":[{\"stream_id\":61,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291221,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10812,\"raw_received_bytes\":1095,\"recv_bytes\":235,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676997197,\"response_time_ms\":-1676996865},{\"stream_id\":63,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6290727,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":1616,\"recv_bytes\":729,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996746,\"response_time_ms\":-1676996575},{\"stream_id\":65,\"io_state\":\"STATE_CLOSED (0x00000005)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291153,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":235,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":10780,\"raw_received_bytes\":1416,\"recv_bytes\":538,\"pending_send_status\":1,\"response_state\":1,\"request_time_ms\":-1676996507,\"response_time_ms\":-1676996207},{\"stream_id\":67,\"io_state\":\"STATE_HALF_CLOSED_LOCAL (0x00000002)\",\"type\":1,\"priority\":1,\"send_window_size\":67108864,\"recv_window_size\":6291456,\"max_recv_window_size\":6291456,\"unacked_recv_window_bytes\":0,\"send_stalled_by_flow_control\":false,\"raw_sent_bytes\":11129,\"raw_received_bytes\":0,\"recv_bytes\":0,\"pending_send_status\":1,\"response_state\":0,\"request_time_ms\":-1676995444,\"response_time_ms\":0}]}","requestId":"2aad09ef-39b9-40ab-90e0-ef2c655c5ca5"}
+	at Object.t [as fromUnknown] (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:1084:3632)
+	at hhr (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:13671)
+	at fA._performFetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:16635)
+	at async fA._streamEditsImpl (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:17213)
+	at async fA.streamEdits (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:15141)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14594)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.doGetNextEditsWithCursorJump (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2406:2702)
+	at async fA.streamEditsWithFiltering (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:14966)
+	at async fA.doGetNextEditWithSelection (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:11021)
+	at async fA.provideNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2404:5649)
+	at async nN._executeNewNextEditRequest (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:15537)
+	at async nN.fetchNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:10648)
+	at async nN._getNextEditCanThrow (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:4911)
+	at async nN.getNextEdit (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:2241:2645)
+2026-09-13 20:32:25.955 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-09-13 20:40:57.369 [error] Error: Failed to execute git
+	at Nm._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:28:115)
+	at async Nm.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:23:397)
+	at async Dn.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:31:4200)
+	at async Dn.getRemotesGit (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1563)
+	at async Dn.getRemotes (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1288)
+	at async Promise.all (index 1)
+	at async ar._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1718)
+	at async ar.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1543)
+	at async ar.run (/usr/share/code/resources/app/extensions/git/dist/main.js:66:1768)
+	at async ar.status (/usr/share/code/resources/app/extensions/git/dist/main.js:60:9889)
+2026-09-13 20:40:57.430 [error] Error: Failed to execute git
+	at Nm._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:28:115)
+	at async Nm.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:23:397)
+	at async Dn.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:31:4200)
+	at async Dn.getRemotesGit (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1563)
+	at async Dn.getRemotes (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1288)
+	at async Promise.all (index 1)
+	at async ar._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1718)
+	at async ar.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1543)
+	at async ar.run (/usr/share/code/resources/app/extensions/git/dist/main.js:66:1768)
+	at async ar.status (/usr/share/code/resources/app/extensions/git/dist/main.js:60:9889)
+2026-09-13 20:40:57.432 [error] Error: Failed to execute git
+	at Nm._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:28:115)
+	at async Nm.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:23:397)
+	at async Dn.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:31:4200)
+	at async Dn.getRemotesGit (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1563)
+	at async Dn.getRemotes (/usr/share/code/resources/app/extensions/git/dist/main.js:35:1288)
+	at async Promise.all (index 1)
+	at async ar._updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1718)
+	at async ar.updateModelState (/usr/share/code/resources/app/extensions/git/dist/main.js:72:1543)
+	at async ar.run (/usr/share/code/resources/app/extensions/git/dist/main.js:66:1768)
+	at async ar.status (/usr/share/code/resources/app/extensions/git/dist/main.js:60:9889)
+2026-09-13 20:43:25.739 [error] Error: Git error
+	at ChildProcess.o (/usr/share/code/resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-13 20:43:26.783 [error] Error: Git error
+	at ChildProcess.o (/usr/share/code/resources/app/extensions/git/dist/main.js:66:690)
+	at ChildProcess.emit (node:events:521:24)
+	at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+2026-09-13 20:49:18.980 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 68)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 20:54:56.530 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 80)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 20:56:25.929 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 78)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 21:07:34.685 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 75)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 21:09:25.124 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 75)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 21:38:18.904 [error] Error: Failed with status 400 and body: {"code":"invalid_argument","msg":"source too short (must be at least 110 tokens, but is 73)","meta":{"argument":"source"}}
+	at zye.fetch (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:2691)
+	at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+	at async jye.handlePostInsertion (/usr/share/code/resources/app/extensions/copilot/dist/extension.js:6809:4193)
+2026-09-13 22:48:56.988 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:05:14.988 [info] Extension host terminating: received terminate message from renderer
+2026-09-13 23:05:30.014 [info] Extension host with pid 43307 started
+2026-09-13 23:05:30.014 [info] Skipping acquiring lock for /home/darren/.config/Code/User/workspaceStorage/ec0001cad7725efa66c0b10e5e006c8e.
+2026-09-13 23:05:31.163 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilot-cloud-agent'
+2026-09-13 23:05:35.982 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 23:05:36.312 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 23:05:36.643 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-13 23:05:46.908 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:05:47.147 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:05:47.950 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:05:48.630 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onCommand:git.stashDropAll', root cause: vscode.git
+2026-09-13 23:05:48.688 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-09-13 23:06:01.911 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:06:02.147 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:06:02.891 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onCommand:git.stashDropAll'
+2026-09-13 23:06:04.747 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-13 23:06:07.754 [info] Eager extensions activated
+2026-09-13 23:07:17.826 [info] ExtensionService#_doActivateExtension BracketPairColorDLW.bracket-pair-color-dlw, startup: false, activationEvent: 'onCommand:bracket-pair-color-dlw.run'
+2026-09-13 23:09:07.889 [info] ExtensionService#_doActivateExtension anseki.vscode-color, startup: false, activationEvent: 'onCommand:extension.colorHelper.pick'
+2026-09-13 23:10:06.938 [info] Extension host terminating: received terminate message from renderer
+2026-09-13 23:10:07.371 [info] Extension host with pid 43307 exiting with code 0
+2026-09-13 23:10:13.724 [info] Extension host with pid 43484 started
+2026-09-13 23:10:13.724 [info] Skipping acquiring lock for /home/darren/.config/Code/User/workspaceStorage/ec0001cad7725efa66c0b10e5e006c8e.
+2026-09-13 23:10:14.099 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatSession:copilot-cloud-agent'
+2026-09-13 23:10:20.123 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 23:10:20.262 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 23:10:20.477 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-13 23:10:23.906 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:10:23.985 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:10:24.553 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-13 23:10:24.825 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onCommand:git.stashDropAll', root cause: vscode.git
+2026-09-13 23:10:24.852 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-09-13 23:10:36.190 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onCommand:git.stashDropAll'
+2026-09-13 23:10:36.852 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-09-13 23:10:37.164 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:10:37.387 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:10:42.144 [info] Eager extensions activated
+2026-09-13 23:37:56.716 [info] Extension host terminating: received terminate message from renderer
+2026-09-13 23:37:59.048 [info] Extension host with pid 43484 exiting with code 0
+2026-09-13 23:38:52.171 [info] Extension host with pid 46336 started
+2026-09-13 23:38:53.909 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-13 23:38:54.163 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-13 23:38:55.004 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-13 23:38:55.894 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-13 23:38:56.565 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-13 23:38:57.785 [info] Eager extensions activated
+2026-09-13 23:38:58.693 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:39:03.637 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:39:03.714 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-13 23:39:11.172 [info] Extension host terminating: received terminate message from renderer
+2026-09-13 23:39:11.210 [info] Extension host with pid 46336 exiting with code 0

@@ -1,0 +1,7 @@
+2026-09-15 09:17:29.196 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_SOCKET_NOT_CONNECTED
+2026-09-15 16:52:53.688 [error] #208: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2026-09-15 19:39:31.191 [error] #277: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_TIMED_OUT
+2026-09-15 21:46:04.198 [error] #330: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_SOCKET_NOT_CONNECTED
+2026-09-15 22:47:50.516 [error] #355: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_SOCKET_NOT_CONNECTED
+2026-09-15 23:49:07.809 [error] #380: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NETWORK_CHANGED
+2026-09-16 00:37:59.506 [error] #402: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_NETWORK_CHANGED

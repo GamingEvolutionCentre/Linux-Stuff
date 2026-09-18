@@ -1,0 +1,393 @@
+local reference_screenshot = MiniTest.expect.reference_screenshot
+local child_helper = require("tests.child_helper")
+local child = child_helper.new_child_neovim("test_suggestion")
+
+local T = MiniTest.new_set({
+  hooks = {
+    pre_once = function() end,
+    pre_case = function()
+      child.run_pre_case(true)
+      child.bo.readonly = false
+    end,
+    post_once = child.stop,
+  },
+})
+
+T["suggestion()"] = MiniTest.new_set()
+
+for _, detach in ipairs({ false, true }) do
+  local name = detach and "skips delayed completion after LSP detach" or "sends delayed completion while attached"
+  T["suggestion()"][name] = function()
+    child.config.suggestion = child.config.suggestion .. "auto_trigger = true, debounce = 30,"
+    if detach then
+      child.lua([[
+        vim.api.nvim_create_autocmd("LspAttach", {
+          buffer = 0,
+          callback = function(args)
+            vim.schedule(function()
+              vim.lsp.buf_detach_client(args.buf, args.data.client_id)
+            end)
+          end,
+        })
+      ]])
+    end
+    child.configure_copilot()
+    child.lua([[
+      assert(vim.wait(2000, function() return require("copilot.auth").is_authenticated() end, 10))
+      require("tests.stubs.lsp_server").reset()
+      local timer_start = vim.fn.timer_start
+      vim.fn.timer_start = function(timeout, callback)
+        _G.attached_when_scheduled = require("copilot.client").buf_is_attached(0)
+        return timer_start(timeout, function(timer)
+          callback(timer)
+          _G.suggestion_timer_fired = true
+        end)
+      end
+    ]])
+    child.type_keys("i7")
+    local result = child.lua([[
+      assert(vim.wait(2000, function() return _G.suggestion_timer_fired end, 10), "suggestion timer did not fire")
+      local requests = 0
+      for _, message in ipairs(require("tests.stubs.lsp_server").messages) do
+        if message.method == "getCompletions" then
+          requests = requests + 1
+        end
+      end
+      return {
+        attached_when_scheduled = _G.attached_when_scheduled,
+        attached_when_fired = require("copilot.client").buf_is_attached(0),
+        requests = requests,
+      }
+    ]])
+    MiniTest.expect.equality(result.attached_when_scheduled, true)
+    MiniTest.expect.equality(result.attached_when_fired, not detach)
+    MiniTest.expect.equality(result.requests, detach and 0 or 1)
+  end
+end
+
+T["suggestion()"]["suggestion works"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["auto_trigger is false, will not show ghost test"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept keymap to trigger sugestion"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "keymap = { accept = '<C-p>' },"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<C-p>")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept keymap to trigger sugestion (default)"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<M-l>")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept keymap to trigger suggestion (TAB)"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "keymap = { accept = '<Tab>' },"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<Tab>")
+  child.wait_for_suggestion()
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept keymap to trigger suggestion - manual attach"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "keymap = { accept = '<C-p>' },"
+  child.configure_copilot()
+  child.cmd("Copilot attach")
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<C-p>")
+  child.wait_for_suggestion()
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept keymap, no suggestion, execute normal keystroke"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "keymap = { accept = '<CR>' },\n" .. "trigger_on_accept = false,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<CR>", "a")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept line keymap, no suggestion, execute normal keystroke"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion
+    .. "keymap = { accept_line = '<CR>' },\n"
+    .. "trigger_on_accept = false,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<CR>", "a")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept word keymap, no suggestion, execute normal keystroke"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion
+    .. "keymap = { accept_word = '<CR>' },\n"
+    .. "trigger_on_accept = false,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7", "<CR>", "a")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept_word, 1 word, works"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true," .. "keymap = { accept_word = '<C-e>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Esc>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept_word, 2 words, works"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true," .. "keymap = { accept_word = '<C-e>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<C-e>", "<Esc>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+-- - accept_word, 1 word then next
+-- - accept_word, 1 word then prev
+
+T["suggestion()"]["accept_word, 1 word, then dismiss"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion
+    .. "auto_trigger = true,"
+    .. "keymap = { accept_word = '<C-e>', dismiss = '<Tab>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Tab>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept_word, 1 word, then dismiss with Esc"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion
+    .. "auto_trigger = true,"
+    .. "keymap = { accept_word = '<C-e>', dismiss = '<Esc>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Esc>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept_word, 1 word, then accept"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion
+    .. "auto_trigger = true,"
+    .. "keymap = { accept_word = '<C-e>', accept = '<Tab>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Tab>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["accept_line, 1 line, works"] = function()
+  child.o.lines, child.o.columns = 30, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true," .. "keymap = { accept_line = '<C-e>' },"
+  child.cmd("e numbers_as_arrays.txt")
+  child.configure_copilot()
+  child.type_keys("i{", "<Esc>o", "  1,2,3", "<Esc>o", "4,5,6", "<Esc>o", "7,8,9", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o", "  10,11,12", "<Esc>", "o13,14,15", "<Esc>", "o16,17,18", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Esc>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 29, 30 }, ignore_attr = { 29, 30 } })
+end
+
+T["suggestion()"]["accept_line, 3 lines, works"] = function()
+  child.o.lines, child.o.columns = 50, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true," .. "keymap = { accept_line = '<C-e>' },"
+  child.cmd("e numbers_as_arrays.txt")
+  child.configure_copilot()
+  child.type_keys("i{", "<Esc>o", "  1,2,3", "<Esc>o", "4,5,6", "<Esc>o", "7,8,9", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o", "  10,11,12", "<Esc>", "o13,14,15", "<Esc>", "o16,17,18", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<C-e>", "<C-e>", "<Esc>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 49, 50 }, ignore_attr = { 49, 50 } })
+end
+
+-- - accept_line, 1 line then next
+-- - accept_line, 1 line then prev
+
+T["suggestion()"]["accept_line, 1 line, then dismiss"] = function()
+  child.o.lines, child.o.columns = 30, 15
+  child.config.suggestion = child.config.suggestion
+    .. "auto_trigger = true,"
+    .. "keymap = { accept_line = '<C-e>', dismiss = '<Tab>' },"
+  child.cmd("e numbers_as_arrays.txt")
+  child.configure_copilot()
+  child.type_keys("i{", "<Esc>o", "  1,2,3", "<Esc>o", "4,5,6", "<Esc>o", "7,8,9", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o", "  10,11,12", "<Esc>", "o13,14,15", "<Esc>", "o16,17,18", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Tab>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 29, 30 }, ignore_attr = { 29, 30 } })
+end
+
+T["suggestion()"]["accept_line, 1 line, then accept"] = function()
+  child.o.lines, child.o.columns = 50, 40
+  child.config.suggestion = child.config.suggestion
+    .. "auto_trigger = true,"
+    .. "keymap = { accept_line = '<C-e>', accept = '<Tab>' },"
+  child.cmd("e numbers_as_arrays.txt")
+  child.configure_copilot()
+  child.type_keys("i{", "<Esc>o", "  1,2,3", "<Esc>o", "4,5,6", "<Esc>o", "7,8,9", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o", "  10,11,12", "<Esc>", "o13,14,15", "<Esc>", "o16,17,18", "<Esc>o<bs>", "}", "<Esc>")
+  child.type_keys("o{", "<Esc>o")
+  child.wait_for_suggestion()
+  child.type_keys("<C-e>", "<Tab>")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 49, 50 }, ignore_attr = { 49, 50 } })
+end
+
+T["suggestion()"]["duplicated keymap yields correct error message"] = function()
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true," .. "keymap = { accept = '<M-CR>' },"
+  child.cmd("e numbers_with_spaces.txt")
+  child.configure_copilot()
+  child.type_keys("i1 2 3", "<Esc>", "o4 5 6", "<Esc>", "o7 ")
+  child.wait_for_suggestion()
+  child.type_keys("<M-CR>", "<Tab>")
+  child.cmd_capture("Copilot disable")
+  local mess = child.cmd_capture("messages")
+  assert(mess:match("E31") == nil, "Error E31 should have been handled")
+  assert(mess:match("please review your configuration") ~= nil, "Should have logged a message about keymap conflict")
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 49, 50 }, ignore_attr = { 49, 50 } })
+end
+
+T["suggestion()"]["is_visible works"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.wait_for_suggestion()
+  local is_visible = child.lua('return require("copilot.suggestion").is_visible()')
+  assert(is_visible, "is_visible should be true")
+end
+
+T["suggestion()"]["suggestion with indentation mismatch"] = function()
+  child.o.lines, child.o.columns = 10, 20
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.cmd("e indented_suggestion.txt")
+  child.configure_copilot()
+  child.type_keys("idef foo():", "<Esc>", "o    ")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["suggestion with range offset"] = function()
+  child.o.lines, child.o.columns = 10, 20
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.cmd("e range_offset.txt")
+  child.configure_copilot()
+  child.type_keys("idef bar():", "<Esc>", "o  i")
+  child.wait_for_suggestion()
+
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 9, 10 }, ignore_attr = { 9, 10 } })
+end
+
+T["suggestion()"]["is_visible returns nil after accept"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.wait_for_suggestion()
+  local is_visible_before = child.lua('return require("copilot.suggestion").is_visible()')
+  assert(is_visible_before, "is_visible should be true before accept")
+
+  child.lua('require("copilot.suggestion").accept()')
+  -- Allow scheduled functions to complete
+  child.lua("vim.wait(200, function() return false end, 10)")
+
+  local is_visible_after = child.lua('return require("copilot.suggestion").is_visible()')
+  MiniTest.expect.equality(is_visible_after, vim.NIL)
+end
+
+T["suggestion()"]["next keymap triggers suggestion"] = function()
+  child.configure_copilot()
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.type_keys("<M-]>")
+  child.wait_for_suggestion()
+  reference_screenshot(child.get_screenshot(), nil, { ignore_text = { 49, 50 }, ignore_attr = { 49, 50 } })
+end
+
+T["suggestion()"]["accept does not use feedkeys autoindent hack"] = function()
+  child.o.lines, child.o.columns = 10, 15
+  child.config.suggestion = child.config.suggestion .. "auto_trigger = true,"
+  child.configure_copilot()
+
+  -- Intercept nvim_feedkeys to detect the autoindent hack
+  child.lua([[
+    _G.feedkeys_calls = {}
+    local original_feedkeys = vim.api.nvim_feedkeys
+    vim.api.nvim_feedkeys = function(keys, mode, escape_ks)
+      table.insert(_G.feedkeys_calls, keys)
+      return original_feedkeys(keys, mode, escape_ks)
+    end
+  ]])
+
+  child.type_keys("i123", "<Esc>", "o456", "<Esc>", "o7")
+  child.wait_for_suggestion()
+  child.lua('require("copilot.suggestion").accept()')
+  child.lua("vim.wait(200, function() return false end, 10)")
+
+  -- Check that no feedkeys call contains the Space-Left-Del pattern
+  local has_hack = child.lua([[
+    local space_left_del = vim.api.nvim_replace_termcodes("<Space><Left><Del>", true, false, true)
+    for _, keys in ipairs(_G.feedkeys_calls) do
+      if keys == space_left_del then
+        return true
+      end
+    end
+    return false
+  ]])
+  MiniTest.expect.equality(has_hack, false)
+end
+
+return T

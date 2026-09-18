@@ -1,0 +1,16 @@
+2026/09/12-20:51:01.539 160e Recovering log #3
+2026/09/12-20:51:01.541 160e Level-0 table #5: started
+2026/09/12-20:51:01.585 160e Level-0 table #5: 6057 bytes OK
+2026/09/12-20:51:01.688 160e Delete type=0 #3
+2026/09/12-20:51:01.688 160e Delete type=3 #2
+2026/09/12-22:37:20.774 160e Level-0 table #8: started
+2026/09/12-22:37:29.172 160e Level-0 table #8: 129403 bytes OK
+2026/09/12-22:37:30.370 160e Delete type=0 #6
+2026/09/12-22:37:30.372 160e Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x05\x00\x00\xc8\x17\x00p\x00u\x00l\x00l\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00L\x00a\x00s\x00t\x00U\x00p\x00d\x00a\x00t\x00e\x00d' @ 547 : 1
+2026/09/12-22:37:30.372 160e Compacting 2@0 + 0@1 files
+2026/09/12-22:37:31.129 160e Generated table #9@0: 256 keys, 8717 bytes
+2026/09/12-22:37:31.130 160e Compacted 2@0 + 0@1 files => 8717 bytes
+2026/09/12-22:37:31.876 160e compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/09/12-22:37:31.878 160e Delete type=2 #5
+2026/09/12-22:37:31.878 160e Delete type=2 #8
+2026/09/12-22:37:31.961 160e Manual compaction at level-0 from '\x00\x05\x00\x00\xc8\x17\x00p\x00u\x00l\x00l\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00L\x00a\x00s\x00t\x00U\x00p\x00d\x00a\x00t\x00e\x00d' @ 547 : 1 .. (end); will stop at (end)

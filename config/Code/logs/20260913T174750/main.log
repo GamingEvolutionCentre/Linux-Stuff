@@ -1,0 +1,434 @@
+2026-09-13 17:47:54.377 [info] StorageMainService: creating application shared storage
+2026-09-13 17:47:58.168 [info] [shared storage] Creating shared storage database at '/home/darren/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-13 17:47:58.173 [info] [shared storage] Initializing fallback application storage (path: /home/darren/.config/Code/User/globalStorage/state.vscdb)
+2026-09-13 17:47:58.815 [info] [shared storage] Fallback application storage initialized with 145 items
+2026-09-13 17:48:03.617 [info] update#disable - updates are disabled by user preference
+2026-09-13 17:48:03.619 [info] update#setState disabled
+2026-09-13 17:48:04.082 [info] AgentHostProcessManager: agent host started
+2026-09-13 17:48:23.615 [error] [AgentHost:stderr] (node:32786) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-13 17:52:04.194 [info] Extension host with pid 32996 exited with code: 0, signal: unknown.
+2026-09-13 17:52:04.296 [error] [UtilityProcess id: 3, type: extensionHost, pid: 32996]: crashed with code 15 and reason 'killed'
+2026-09-13 17:52:26.279 [info] Extension host with pid 32941 exited with code: 0, signal: unknown.
+2026-09-13 17:52:26.280 [error] [UtilityProcess id: 2, type: extensionHost, pid: 32941]: crashed with code 15 and reason 'killed'
+2026-09-13 18:27:03.288 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 18:42:35.341 [info] Extension host with pid 32840 exited with code: 0, signal: unknown.
+2026-09-13 18:42:37.502 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 18:42:38.041 [error] Extension host with pid 32840 still exists, forcefully killing it...
+2026-09-13 18:55:59.657 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:03:47.687 [error] CodeWindow: detected unresponsive
+2026-09-13 19:04:19.109 [error] CodeWindow unresponsive samples:
+<1> 
+    at get editorId (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2874:17139)
+    at O5.updateEditorResourcesMap (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:33399)
+    at O5.addMostRecentEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:33167)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:32361)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at VS.onDidGroupModelChange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68688)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68357)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at v0.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:22923)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76004)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at get editorId (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2874:17139)
+    at P3t._generateTabId (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1126:4216)
+    at P3t._buildTabObject (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1126:2652)
+    at P3t._onDidTabOpen (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1126:4974)
+    at P3t._updateTabsModel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1126:8192)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1126:2078)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:40217)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at VS.onDidGroupModelChange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68688)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68357)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at v0.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:22923)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76004)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at get size (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1362:22065)
+    at get height (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1362:22422)
+    at s._getViews (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1362:42709)
+    at s.getView (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1362:41623)
+    at s.getViews (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1362:49212)
+    at _Ue.getGroups (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:109288)
+    at UN.getGroups (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:180247)
+    at Vwe.getEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:44038)
+    at get editors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:43746)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2829:6794)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:40217)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at VS.onDidGroupModelChange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68688)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68357)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at v0.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:22923)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76004)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at V1.handleChange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:7530)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:25228
+    at Ti (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:110068)
+    at handleEvent (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:25165)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:431:11960)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at VS.onDidGroupModelChange (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68688)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:68357)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at v0.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1106:22923)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76004)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+Total Samples: 4
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-09-13 19:04:19.220 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:04:20.141 [error] CodeWindow: detected unresponsive
+2026-09-13 19:04:35.143 [error] CodeWindow unresponsive samples:
+<2> 
+    at [Symbol.iterator].next (<anonymous>)
+    at Object.getMenuItems (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:441:36902)
+    at I9.refresh (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:139293)
+    at new s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:138870)
+    at new I9 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:140100)
+    at new jAe (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:141586)
+    at $Ae.createMenu (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:136610)
+    at VS.createEditorActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:84495)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49535)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<2> 
+    at _compareMenuItems (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:141041)
+    at Array.sort (<anonymous>)
+    at I9._sort (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:140990)
+    at I9.refresh (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:139284)
+    at new s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:138870)
+    at new I9 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:140100)
+    at new jAe (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:141586)
+    at $Ae.createMenu (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:136610)
+    at VS.createEditorActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:84495)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49535)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at aUi.getOriginalUri (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1023:93361)
+    at $C.redrawTabLabel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:83327)
+    at $C.redrawTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:82216)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81164
+    at $C.doWithTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:71050)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70829
+    at Array.forEach (<anonymous>)
+    at $C.forEachTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70758)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81132)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at String.replace (<anonymous>)
+    at s.appendText (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:758:17262)
+    at $C.getHoverTitle (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:54726)
+    at $C.redrawTabLabel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:83380)
+    at $C.redrawTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:82216)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81164
+    at $C.doWithTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:71050)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70829
+    at Array.forEach (<anonymous>)
+    at $C.forEachTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70758)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81132)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at qCi.getLabel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2283:138)
+    at $C.getKeybindingLabel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:54284)
+    at $C.redrawTabAction (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81836)
+    at $C.redrawTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:82247)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81164
+    at $C.doWithTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:71050)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70829
+    at Array.forEach (<anonymous>)
+    at $C.forEachTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70758)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81132)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at Array Iterator.next (<anonymous>)
+    at $C.redrawTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:82339)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81164
+    at $C.doWithTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:71050)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70829
+    at Array.forEach (<anonymous>)
+    at $C.forEachTab (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:70758)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81132)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at [Symbol.iterator].next (<anonymous>)
+    at Object.getMenuItems (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:441:36902)
+    at I9._collectContextKeysAndSubmenuIds (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:139877)
+    at I9.refresh (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:139423)
+    at new s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:138870)
+    at new I9 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:140100)
+    at new jAe (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:141586)
+    at $Ae.createMenu (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:136610)
+    at VS.createEditorActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:84495)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49535)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+Total Samples: 9
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-09-13 19:04:36.976 [error] CodeWindow: detected unresponsive
+2026-09-13 19:04:51.979 [error] CodeWindow unresponsive samples:
+<1> 
+    at s.evaluate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:441:3521)
+    at T6i.contextMatchesRules (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2262:73654)
+    at I9.createActionGroups (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:140339)
+    at jAe.getActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:142830)
+    at VS.createEditorActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:84643)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49535)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at Object.u [as onWillAddFirstListener] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:142189)
+    at Object._event [as onDidChange] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:2650)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49665)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at set menuActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:83191)
+    at Sc.setActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:77186)
+    at Sc.setActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:145409)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49816)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at get label (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:439:30958)
+    at km.renderLabel (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:70266)
+    at t (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:68839)
+    at new Urt (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:66065)
+    at new LVt (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:66945)
+    at km.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:69335)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:934:27662
+    at Array.forEach (<anonymous>)
+    at Co.push (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:934:27172)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:77317
+    at Array.forEach (<anonymous>)
+    at Sc.setActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:77290)
+    at Sc.setActions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:145409)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:49816)
+    at $C.updateEditorActionsToolbar (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66250)
+    at $C.redraw (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:81194)
+    at $C.handleOpenedEditors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66872)
+    at $C.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:66335)
+    at xUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:56533)
+    at VS.doShowEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76744)
+    at VS.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76175)
+    at VS.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:75012)
+    at Vwe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1979:45588)
+    at async iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2924:88034)
+<1> 
+    at Array.forEach (<anonymous>)
+    at vot (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:442:18240)
+    at Fee.updateEditorConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:60648)
+    at Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:59758)
+    at async Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4311:92139)
+    at async bUe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:36391)
+    at async bUe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:34177)
+    at async bUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:33125)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76407
+<1> 
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:40786
+    at Array.forEach (<anonymous>)
+    at oTo (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:40778)
+    at rTo (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:50487)
+    at Kie.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:48243)
+    at Qs.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:710:17729)
+    at Fee.updateEditorControlOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1369:95466)
+    at Fee.updateEditorConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:60749)
+    at Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:59758)
+    at async Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4311:92139)
+    at async bUe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:36391)
+    at async bUe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:34177)
+    at async bUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:33125)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76407
+<1> 
+    at get workspaceValue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5604:23517)
+    at fMt.getAccessibilitySupportConfigurationValue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5615:20960)
+    at fMt.isScreenReaderOptimized (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5615:20677)
+    at Kie._readEnvConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:48020)
+    at Kie._computeOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:46870)
+    at Kie._recomputeOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:46706)
+    at Kie.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:48354)
+    at Qs.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:710:17729)
+    at Fee.updateEditorControlOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1369:95466)
+    at Fee.updateEditorConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:60749)
+    at Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:59758)
+    at async Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4311:92139)
+    at async bUe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:36391)
+    at async bUe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:34177)
+    at async bUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:33125)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76407
+<1> 
+    at SOt.hasChanged (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:442:28763)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1009:16644)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D._deliverQueue (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3731)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:4066)
+    at iLe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:710:14934)
+    at D._deliver (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3642)
+    at D.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:433:3961)
+    at Kie._recomputeOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:46832)
+    at Kie.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:48354)
+    at Qs.updateOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:710:17729)
+    at Fee.updateEditorControlOptions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1369:95466)
+    at Fee.updateEditorConfiguration (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:60749)
+    at Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1100:59758)
+    at async Fee.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4311:92139)
+    at async bUe.doSetInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:36391)
+    at async bUe.doOpenEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:34177)
+    at async bUe.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1374:33125)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1487:76407
+Total Samples: 8
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-09-13 19:04:59.669 [error] CodeWindow: recovered from unresponsive
+2026-09-13 19:06:06.719 [error] CodeWindow: detected unresponsive
+2026-09-13 19:06:21.721 [error] CodeWindow unresponsive samples:
+<1> 
+    at Xot._createEditorWorkerHost (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:26204)
+    at Xot._getOrCreateWorker (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:25837)
+    at Xot._getProxy (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:25980)
+    at Xot.workerWithSyncedResources (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:26506)
+    at Uie._workerWithResources (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:22518)
+    at async Uie.computeDefaultDocumentColors (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:508:22348)
+Total Samples: 1
+For full overview of the unresponsive period, capture cpu profile via https://aka.ms/vscode-tracing-cpu-profile
+2026-09-13 19:06:23.939 [error] CodeWindow: recovered from unresponsive
+2026-09-13 19:06:53.317 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:10:25.473 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:13:07.181 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:13:15.446 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:13:35.643 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:13:38.915 [error] CodeWindow: detected unresponsive
+2026-09-13 19:13:49.103 [error] CodeWindow: recovered from unresponsive
+2026-09-13 19:14:31.418 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:23:51.238 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:24:51.100 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 19:25:07.045 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 20:31:20.034 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 22:50:07.491 [error] CodeWindow: detected unresponsive
+2026-09-13 22:50:14.327 [error] CodeWindow: recovered from unresponsive
+2026-09-13 23:05:22.189 [info] Extension host with pid 33877 exited with code: 0, signal: unknown.
+2026-09-13 23:10:07.388 [info] Extension host with pid 43307 exited with code: 0, signal: unknown.
+2026-09-13 23:10:08.707 [error] Extension host with pid 43307 still exists, forcefully killing it...
+2026-09-13 23:37:59.343 [info] Extension host with pid 43484 exited with code: 0, signal: unknown.
+2026-09-13 23:38:00.608 [error] Extension host with pid 43484 still exists, forcefully killing it...
+2026-09-13 23:39:10.626 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-13 23:39:12.577 [info] Extension host with pid 46336 exited with code: 0, signal: unknown.
+2026-09-13 23:39:13.243 [warning] [storage main] detected slow close() operation: Time: 3161ms, DB size: 172032b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10473, vscode.github-authentication:2950, memento/customEditors:1685
+2026-09-13 23:39:13.244 [warning] [storage main] detected slow close() operation: Time: 3163ms, DB size: 20480b, Large Keys: terminal.integrated.environmentVariableCollectionsV2:1657, __$__targetStorageMarker:889, GitHub.copilot-chat:278, mcp.extCachedServers:266, workbench.sessions.auxiliaryBar.filesContainer:133
+2026-09-13 23:39:13.245 [warning] [storage main] detected slow close() operation: Time: 3322ms, DB size: 12288b, Large Keys: history.recentlyOpenedPathsList:436, content.trust.model.key:183, __$__targetStorageMarker:110, __$__isNewStorageMarker:5, chat.vscodePet.achievementCatalogVersion:1
+2026-09-13 23:39:13.254 [warning] [storage main] detected slow close() operation: Time: 3323ms, DB size: 12288b, Large Keys: __$__isNewStorageMarker:5
+2026-09-13 23:39:13.431 [warning] [storage main] detected slow close() operation: Time: 3341ms, DB size: 20480b, Large Keys: __$__targetStorageMarker:868, workbench.activity.viewletsWorkspaceState:787, workbench.panel.viewContainersWorkspaceState:326, workbench.explorer.views.state:232, workbench.zenMode.exitInfo:187
+2026-09-13 23:39:13.448 [warning] [storage main] detected slow close() operation: Time: 3527ms, DB size: 20480b, Large Keys: terminal.integrated.environmentVariableCollectionsV2:1749, __$__targetStorageMarker:1190, workbench.activity.viewletsWorkspaceState:788, workbench.view.debug.state:584, workbench.panel.viewContainersWorkspaceState:325
+2026-09-13 23:39:13.449 [warning] [storage main] detected slow close() operation: Time: 3529ms, DB size: 61440b, Large Keys: chat.customModes.local:9473, memento/workbench.editors.files.textFileEditor:7436, workbench.view.extensions.state:2765, __$__targetStorageMarker:2071, terminal.integrated.environmentVariableCollectionsV2:1749
+2026-09-13 23:39:13.702 [warning] [storage main] detected slow close() operation: Time: 3798ms, DB size: 40960b, Large Keys: chat.customModes.local:9473, terminal.integrated.environmentVariableCollectionsV2:1749, __$__targetStorageMarker:1740, memento/workbench.editors.files.textFileEditor:1713, memento/interactive-session-view-copilot:1324
+2026-09-13 23:39:13.868 [warning] [storage main] detected slow close() operation: Time: 3964ms, DB size: 278528b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10310, extensionsEnablement/malicious:9490, memento/experiment.service.memento:9370
+2026-09-13 23:39:15.903 [warning] AgentHostProcessManager: agent host did not shut down within 6000ms; terminating it

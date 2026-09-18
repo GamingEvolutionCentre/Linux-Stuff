@@ -1,0 +1,34 @@
+2026-09-14 15:56:36.727 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 28ms.
+2026-09-14 15:56:36.918 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-14 15:56:37.031 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 15:56:41.124 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 15:56:41.515 [info] Started local extension host with pid 1538.
+2026-09-14 15:56:42.299 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 15:56:47.127 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 15:56:51.966 [error] TypeError: Failed to fetch
+    at PRn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:53099)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54395
+    at uMt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1026:11067)
+    at uMt.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54375)
+    at rit.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3750)
+    at rit.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3643)
+    at new rit (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3474)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at s.safeCreateContribution (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:47103)
+    at l (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:46704)
+2026-09-14 15:57:19.112 [info] [AgentHost:renderer] Protocol connection established; clientId=e240a312-dfb2-4685-968e-48a10785c19a
+2026-09-14 15:57:22.001 [info] Extension host (LocalProcess pid: 1538) is unresponsive.
+2026-09-14 15:57:26.063 [info] [perf] Render performance baseline is 571ms
+2026-09-14 15:57:58.671 [info] Extension host (LocalProcess pid: 1538) is responsive.
+2026-09-14 15:57:58.971 [info] Extension host (LocalProcess pid: 1538) is unresponsive.
+2026-09-14 15:57:58.975 [info] Extension host (LocalProcess pid: 1538) is responsive.
+2026-09-14 15:57:59.668 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 15:58:00.280 [error] [Extension Host] (node:1538) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 15:58:02.576 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-14 15:58:05.521 [info] Extension host (LocalProcess pid: 1538) is unresponsive.
+2026-09-14 15:58:23.362 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-14 15:58:24.402 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 15:58:25.895 [info] Extension host (LocalProcess pid: 1538) is responsive.
+2026-09-14 15:58:29.427 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos

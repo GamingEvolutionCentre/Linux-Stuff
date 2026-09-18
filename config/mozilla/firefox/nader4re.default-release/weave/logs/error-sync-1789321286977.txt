@@ -1,0 +1,28 @@
+1789320986869	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1789320991275	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321007261	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321033085	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321127175	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321133352	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321187389	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321193513	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789321270412	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789321270413	Sync.Service	INFO	Starting sync at 2026-09-13 18:41:10 in browser session lLlVM9jV9KBA
+1789321270462	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789321270473	Sync.Status	INFO	Resetting Status.
+1789321270473	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789321270646	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789321270647	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789321270730	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789321270731	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789321270734	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789321278949	FirefoxAccounts	DEBUG	CommandQueue shutdown is flushing the queue with a timer=false
+1789321286563	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1789321286589	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/collections
+1789321286591	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration
+1789321286595	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789321286675	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration failed: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789321286675	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "<unknown>"  data: no] No traceback available
+1789321286963	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1789321286969	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789321286975	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

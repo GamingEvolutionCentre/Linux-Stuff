@@ -1,0 +1,9 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onWindowChange",
+    "editor.fontFamily": "'MesloLGS Nerd Font'",
+    "editor.wordWrap": "on",
+    "chat.agent.maxRequests": 10000000,
+    "editor.formatOnPaste": true
+}

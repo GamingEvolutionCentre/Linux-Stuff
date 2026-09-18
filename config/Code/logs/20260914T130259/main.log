@@ -1,0 +1,16 @@
+2026-09-14 13:03:02.528 [info] StorageMainService: creating application shared storage
+2026-09-14 13:03:05.937 [info] [shared storage] Creating shared storage database at '/home/darren/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-14 13:03:05.942 [info] [shared storage] Initializing fallback application storage (path: /home/darren/.config/Code/User/globalStorage/state.vscdb)
+2026-09-14 13:03:06.732 [info] [shared storage] Fallback application storage initialized with 152 items
+2026-09-14 13:03:11.513 [info] update#disable - updates are disabled by user preference
+2026-09-14 13:03:11.531 [info] update#setState disabled
+2026-09-14 13:03:11.907 [info] AgentHostProcessManager: agent host started
+2026-09-14 13:03:35.286 [error] [AgentHost:stderr] (node:6876) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-14 13:09:25.730 [warning] AgentHostProcessManager: agent host did not shut down within 6000ms; terminating it
+2026-09-14 13:09:26.447 [info] Extension host with pid 6892 exited with code: 0, signal: unknown.
+2026-09-14 13:09:29.638 [warning] [storage main] detected slow close() operation: Time: 12523ms, DB size: 12288b, Large Keys: history.recentlyOpenedPathsList:436, content.trust.model.key:183, __$__targetStorageMarker:110, __$__isNewStorageMarker:5, chat.vscodePet.achievementCatalogVersion:1
+2026-09-14 13:09:30.341 [warning] No ptyHost heartbeat after 6 seconds
+2026-09-14 13:09:30.465 [warning] [storage main] detected slow close() operation: Time: 13350ms, DB size: 278528b, Large Keys: iconThemeData:96818, colorThemeData:27175, GitHub.copilot-chat:10310, extensionsEnablement/malicious:9490, memento/experiment.service.memento:9370
+2026-09-14 13:09:31.609 [warning] [storage main] detected slow close() operation: Time: 14497ms, DB size: 32768b, Large Keys: chat.customModes.local:9473, terminal.integrated.environmentVariableCollectionsV2:1749, __$__targetStorageMarker:1277, workbench.activity.viewletsWorkspaceState:788, workbench.view.debug.state:584

@@ -1,0 +1,89 @@
+2026-09-14 13:15:53.911 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 24ms.
+2026-09-14 13:15:54.089 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-14 13:15:54.188 [warning] Creation of workbench contribution 'workbench.contrib.interactiveDocument' took 25ms.
+2026-09-14 13:15:54.241 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 21ms.
+2026-09-14 13:15:54.275 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-14 13:15:54.368 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 28ms.
+2026-09-14 13:15:56.407 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-14 13:15:56.901 [info] Started local extension host with pid 7655.
+2026-09-14 13:15:58.151 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:16:01.393 [warning] Creation of workbench contribution 'workbench.contrib.agentStatus.rendering' took 117ms.
+2026-09-14 13:16:03.053 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-14 13:16:06.528 [warning] Creation of workbench contribution 'workbench.contrib.dynamicWindowConfiguration' took 102ms.
+2026-09-14 13:16:24.791 [info] [AgentHost:renderer] Protocol connection established; clientId=e6beacd6-44ef-499b-be5a-feb55337e340
+2026-09-14 13:16:39.053 [info] Extension host (LocalProcess pid: 7655) is unresponsive.
+2026-09-14 13:17:10.608 [error] [Extension Host] (node:7655) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 13:17:10.676 [info] Extension host (LocalProcess pid: 7655) is responsive.
+2026-09-14 13:17:11.717 [info] [perf] Render performance baseline is 407ms
+2026-09-14 13:17:11.726 [info] Settings Sync: Account status changed from uninitialized to available
+2026-09-14 13:17:13.292 [info] Extension host (LocalProcess pid: 7655) is unresponsive.
+2026-09-14 13:17:13.612 [info] Extension host (LocalProcess pid: 7655) is responsive.
+2026-09-14 13:17:13.928 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:18:07.490 [info] Extension host (LocalProcess pid: 7655) is unresponsive.
+2026-09-14 13:18:10.273 [info] Extension host (LocalProcess pid: 7655) is responsive.
+2026-09-14 13:18:10.275 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:18:11.334 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:18:14.892 [info] Extension host (LocalProcess pid: 7655) is unresponsive.
+2026-09-14 13:18:15.529 [info] Extension host (LocalProcess pid: 7655) is responsive.
+2026-09-14 13:18:15.531 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:18:18.341 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:18:44.577 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-14 13:18:45.426 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-14 13:31:41.368 [info] ChatSessionStore: Workspace transition from 1789339084597 to ea6fc3de1d54ddfbbbfd264279a9a565
+2026-09-14 13:31:41.628 [info] ChatSessionStore: Found 3 files in old storage location
+2026-09-14 13:31:43.057 [info] ChatSessionStore: Copied 3 chat session files from empty window to file:///home/darren/.config/Code/User/workspaceStorage/ea6fc3de1d54ddfbbbfd264279a9a565/chatSessions (originals preserved at old location)
+2026-09-14 13:31:43.234 [info] Started local extension host with pid 8293.
+2026-09-14 13:31:54.731 [info] Extension host (LocalProcess pid: 8293) is unresponsive.
+2026-09-14 13:31:57.148 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:32:05.807 [info] Extension host (LocalProcess pid: 8293) is responsive.
+2026-09-14 13:32:08.927 [info] Extension host (LocalProcess pid: 8293) is unresponsive.
+2026-09-14 13:32:19.883 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:32:21.598 [info] Extension host (LocalProcess pid: 8293) is responsive.
+2026-09-14 13:32:21.604 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:32:30.517 [info] Extension host (LocalProcess pid: 8293) is unresponsive.
+2026-09-14 13:32:30.827 [error] [Extension Host] (node:8293) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-14 13:32:30.897 [info] Extension host (LocalProcess pid: 8293) is responsive.
+2026-09-14 13:32:30.898 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-14 13:32:32.116 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-14 13:32:32.363 [warning] UNRESPONSIVE extension host: 'github.copilot-chat' took 22.643072145701165% of 1901.692ms, saved PROFILE here: 'file:///tmp/exthost-711c0e.cpuprofile'
+2026-09-14 13:32:37.947 [warning] UNRESPONSIVE extension host: 'vscode.json-language-features' took 28.18865951255002% of 49.594ms, saved PROFILE here: 'file:///tmp/exthost-592185.cpuprofile'
+2026-09-14 13:59:12.836 [error] Invalid arguments: Vertically offset by 57: Error: Invalid arguments: Vertically offset by 57
+    at new s (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:990:65948)
+    at s.fromLeftTopRightBottom (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:990:66218)
+    at ry._computeFn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:990:175196)
+    at ry._recompute (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:13171)
+    at ry.get (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:12505)
+    at ry.reportChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:497)
+    at ry.get (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:12412)
+    at ry.reportChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:497)
+    at ry.get (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:12412)
+    at ry.reportChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:497)
+    at ry.get (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:12412)
+    at ry.reportChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:497)
+    at ry.get (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:12412)
+    at ry.reportChanges (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:497)
+    at RNt.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:22947)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at ry.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:14173)
+    at SH.finish (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:110883)
+    at uF.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:435:2882)
+    at Object.afterRender (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:937:35241)
+    at mLi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:519:47114)
+    at gLi.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:519:46725)
+    at hWt.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:519:39836)
+    at Object.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:22852)
+    at Object.render (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:21342)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:27156
+    at poe (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:25975)
+    at s._onRenderScheduled (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:27146)
+    at Zit.e [as _runner] (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:671:26596)
+    at Zit.execute (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:439:3975)
+    at i (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:439:4220)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:439:4385
+2026-09-14 14:30:48.456 [error] An unknown error occurred. Please consult the log for more details.

@@ -1,0 +1,8 @@
+2026-09-15 11:03:02.004 [error] #38: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2026-09-15 18:30:49.471 [error] #149: https://api.github.com/copilot/mcp_registry - error GET Failed to fetch
+2026-09-15 22:16:05.612 [error] #205: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2026-09-15 22:36:52.523 [error] #211: https://api.github.com/copilot_internal/user - error GET Failed to fetch
+2026-09-15 22:37:05.646 [error] #216: https://api.github.com/copilot/mcp_registry - error GET Failed to fetch
+2026-09-15 23:18:16.035 [error] #224: https://main.vscode-cdn.net/core/stable.json - error GET Failed to fetch
+2026-09-16 00:17:58.160 [error] #242: https://main.vscode-cdn.net/core/stable.json - error GET Failed to fetch
+2026-09-16 01:18:05.952 [error] #255: https://main.vscode-cdn.net/core/stable.json - error GET Fetch timeout: 20000ms

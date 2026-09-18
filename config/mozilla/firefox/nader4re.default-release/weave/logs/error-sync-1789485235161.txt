@@ -1,0 +1,123 @@
+1789484577815	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789484631454	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484673499	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484690227	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484762994	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484763026	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484763027	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484763049	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484763072	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484763091	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1789484802145	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484811472	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484845876	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484870352	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484888019	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789484922886	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485008477	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485078150	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485078160	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485175337	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485177936	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789485178244	Sync.Service	INFO	Starting sync at 2026-09-15 16:12:57 in browser session 3M2W76A4RgYs
+1789485178246	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789485190184	Sync.Status	INFO	Resetting Status.
+1789485190184	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789485191719	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789485191893	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789485192237	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789485192237	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789485192702	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789485198612	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1789485198732	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/collections
+1789485201621	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration
+1789485201745	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789485202308	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/info/configuration
+1789485202310	Sync.Service	DEBUG	Fetching global metadata record
+1789485202642	Sync.Service	DEBUG	Weave Version: 1.157.0 Local Storage: 5 Remote Storage: 5
+1789485202984	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1789485202985	Sync.Service	INFO	Testing info/collections: {"bookmarks":1789260344.78,"forms":1789294731.86,"addons":1789237975.89,"crypto":1776583888.6,"prefs":1789299111.97,"clients":1789485060.09,"passwords":1789258443.47,"meta":1789204469.07,"extension-storage":1789454784.93,"history":1789481886.98}
+1789485202985	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1776583888.6
+1789485202986	Sync.Synchronizer	DEBUG	Refreshing client list.
+1789485203351	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1789485204320	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789485205946	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/283659723/storage/clients?full=1&limit=1000
+1789485207408	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 5 reconciled.
+1789485207408	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1789485207410	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789485207610	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789485207779	Sync.Engine.Clients	INFO	Hiding stale client b4b529f68ce343a503de4162ba57f404 - in known stale clients list
+1789485207779	Sync.Engine.Clients	INFO	Hiding stale client b4b529f68ce343a503de4162ba57f404 with age 11493628.470000029
+1789485207779	Sync.Engine.Clients	INFO	Hiding stale client 455a2640b7092c345e0303c4017c4dc2 - in known stale clients list
+1789485207779	Sync.Engine.Clients	INFO	Hiding stale client 455a2640b7092c345e0303c4017c4dc2 with age 12895167.659999847
+1789485208675	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1789485209107	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=clients, subject=null
+1789485209692	Sync.Synchronizer	INFO	Updating enabled engines: 3 clients.
+1789485209923	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1789485209929	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485209930	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1789485209932	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=prefs, subject=null
+1789485219589	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485219591	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1789485219591	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=passwords, subject=null
+1789485221164	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID Qpx2n2T1BQy1 matches existing
+1789485225532	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485226082	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1789485227905	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 1822.367ms
+1789485227905	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1789485227906	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1789485228939	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1789485229027	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=bookmarks, subject=null
+1789485229028	Sync.Engine.Addons	DEBUG	Refreshing reconciler state
+1789485229029	Sync.AddonsReconciler	INFO	Refreshing global state from AddonManager.
+1789485229320	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Form Autofill (version=1.0.1, id=formautofill@mozilla.org)
+1789485229321	Sync.AddonsReconciler	DEBUG	Rectifying state for addon IPP Activator (version=0.3, id=ipp-activator@mozilla.com)
+1789485229321	Sync.AddonsReconciler	DEBUG	Rectifying state for addon New Tab (version=155.2.0, id=newtab@mozilla.org)
+1789485229321	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Picture-In-Picture (version=1.0.0, id=pictureinpicture@mozilla.org)
+1789485229321	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Add-ons Search Detection (version=3.0.0, id=addons-search-detection@mozilla.com)
+1789485229321	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Web Compatibility Interventions (version=155.5.0, id=webcompat@mozilla.org)
+1789485229538	Sync.AddonsReconciler	DEBUG	Rectifying state for addon System theme — auto (version=1.4.2, id=default-theme@mozilla.org)
+1789485229539	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Light (version=1.3.4, id=firefox-compact-light@mozilla.org)
+1789485229539	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Dark (version=1.3.4, id=firefox-compact-dark@mozilla.org)
+1789485229599	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Firefox Alpenglow (version=1.5.3, id=firefox-alpenglow@mozilla.org)
+1789485229600	Sync.AddonsReconciler	DEBUG	Rectifying state for addon Tabliss (version=2.6.0, id=extension@tabliss.io)
+1789485229601	Sync.AddonsReconciler	DEBUG	Rectifying state for addon OpenH264 Video Codec provided by Cisco Systems, Inc. (version=2.6.0, id=gmp-gmpopenh264)
+1789485230123	Sync.AddonsReconciler	INFO	Saving reconciler state to file: addonsreconciler
+1789485230126	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789485230593	Sync.Engine.Addons	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485230593	Sync.Engine.Addons	INFO	Uploading 0 outgoing records
+1789485230594	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=addons, subject=null
+1789485230595	Sync.Engine.Addresses	DEBUG	First sync, uploading all items
+1789485230597	Sync.Engine.Addresses	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485230599	Sync.Engine.Addresses	INFO	Uploading 0 outgoing records
+1789485230684	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=addresses, subject=null
+1789485230688	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485230689	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1789485230689	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=forms, subject=null
+1789485230691	Sync.Engine.History	DEBUG	Checking if server sync ID GZcuW1uVMVT_ matches existing
+1789485230699	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485230699	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1789485230700	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=history, subject=null
+1789485233088	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1789485234251	Sync.Engine.Extension-Storage	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1789485234599	Sync.Engine.Extension-Storage	DEBUG	get_outgoing found 0 items
+1789485234601	Sync.Engine.Extension-Storage	INFO	Uploading 0 outgoing records
+1789485234632	Sync.Engine.Extension-Storage	DEBUG	Initializing sync temp tables
+1789485234633	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=extension-storage, subject=null
+1789485234634	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1789485234634	Sync.Doctor	INFO	Skipping check of passwords - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of addons - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of addresses - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping check of extension-storage - disabled via preferences
+1789485234635	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1789485234636	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1789485234637	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789485234639	Sync.Synchronizer	INFO	Sync completed at 2026-09-15 16:13:54 after 44.45 secs.
+1789485234640	Sync.Declined	DEBUG	Handling remote declined: ["tabs","creditcards"]
+1789485234640	Sync.Declined	DEBUG	Handling local declined: ["tabs","creditcards"]
+1789485234640	Sync.Declined	DEBUG	Declined changed? false
+1789485234641	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1789485234733	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)

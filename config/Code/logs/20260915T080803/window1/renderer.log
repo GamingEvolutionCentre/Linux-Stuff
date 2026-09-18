@@ -1,0 +1,80 @@
+2026-09-15 08:08:47.507 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 27ms.
+2026-09-15 08:08:47.688 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-15 08:08:47.749 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 36ms.
+2026-09-15 08:08:47.868 [warning] Creation of workbench contribution 'workbench.contrib.userDataProfiles' took 32ms.
+2026-09-15 08:08:47.912 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 28ms.
+2026-09-15 08:08:47.949 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-15 08:08:54.199 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 59ms.
+2026-09-15 08:08:54.202 [warning] Creation of workbench contribution 'workbench.contrib.linuxSelectionClipboardPastePreventer' took 21ms.
+2026-09-15 08:08:58.086 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-15 08:08:59.457 [info] Started local extension host with pid 3514.
+2026-09-15 08:09:00.010 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-15 08:09:04.841 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-15 08:09:15.656 [error] TypeError: Failed to fetch
+    at PRn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:53099)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54395
+    at uMt.logAndRequest (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1026:11067)
+    at uMt.request (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5612:54375)
+    at rit.doFetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3750)
+    at rit.fetchAlerts (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3643)
+    at new rit (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6101:3474)
+    at s._createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:2000)
+    at s.createInstance (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2293:1440)
+    at s.safeCreateContribution (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:47103)
+    at l (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1011:46704)
+2026-09-15 08:09:19.635 [info] [perf] Render performance baseline is 598ms
+2026-09-15 08:09:35.660 [info] Extension host (LocalProcess pid: 3514) is unresponsive.
+2026-09-15 08:09:51.660 [info] [AgentHost:renderer] Protocol connection established; clientId=b173431b-75d9-4aa7-8ac1-d35665a9ec66
+2026-09-15 08:11:03.933 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-15 08:11:07.180 [info] Extension host (LocalProcess pid: 3514) is responsive.
+2026-09-15 08:11:07.181 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-15 08:11:14.323 [error] [Extension Host] (node:3514) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-15 08:11:33.014 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-15 08:11:36.600 [info] Extension host (LocalProcess pid: 3514) is unresponsive.
+2026-09-15 08:11:37.348 [info] Extension host (LocalProcess pid: 3514) is responsive.
+2026-09-15 08:11:37.809 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2026-09-15 08:11:37.811 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.813 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.815 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.816 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.817 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.818 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.820 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.821 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:37.822 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:41.351 [info] Extension host (LocalProcess pid: 3514) is unresponsive.
+2026-09-15 08:11:46.306 [info] UNRESPONSIVE extension host: starting to profile NOW
+2026-09-15 08:11:51.746 [info] Extension host (LocalProcess pid: 3514) is responsive.
+2026-09-15 08:11:51.747 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.758 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.760 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.761 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.769 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.770 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.780 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.782 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:51.789 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:56.082 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.089 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.094 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.099 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.101 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.105 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.110 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.116 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.119 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:56.247 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:59.245 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.246 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.255 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.257 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.258 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.264 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.272 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.302 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.305 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.431 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:11:59.854 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-15 08:11:59.966 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-15 08:59:52.541 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
