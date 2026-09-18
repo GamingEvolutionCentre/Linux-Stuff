@@ -1,0 +1,7 @@
+[34m[INFO](B[m Package cachyos-hyprland-settings not installed, skipping.
+[34m[INFO](B[m Package mako not installed, skipping.
+[34m[INFO](B[m Package wallust-git not installed, skipping.
+[34m[INFO](B[m Package rofi-lbonn-wayland not installed, skipping.
+[34m[INFO](B[m Package rofi-lbonn-wayland-git not installed, skipping.
+[34m[INFO](B[m wallust [33m3.5.2(B[m is compatible (3.5.x).
+[32m[OK](B[m wallust pinned in [33m/etc/pacman.conf(B[m via IgnorePkg.

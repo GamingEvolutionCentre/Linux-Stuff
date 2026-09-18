@@ -1,0 +1,51 @@
+Failed to disable unit: Unit pulseaudio.socket does not exist
+Sync Explicit (1): sof-firmware-2025.12.2-1
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)         New Version  Net Change  Download Size
+
+extra/sof-firmware  2025.12.2-1   42.80 MiB       1.65 MiB
+
+Total Download Size:    1.65 MiB
+Total Installed Size:  42.80 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ sof-firmware-2025.12.2-1-x86_64 downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing sof-firmware...
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating linux initcpios...
+==> Building image from preset: /etc/mkinitcpio.d/linux-lts.preset: 'default'
+==> Using default configuration file: '/etc/mkinitcpio.conf'
+  -> -k /boot/vmlinuz-linux-lts -g /boot/initramfs-linux-lts.img
+==> Starting build: '6.18.51-1-lts'
+  -> Running build hook: [base]
+  -> Running build hook: [systemd]
+  -> Running build hook: [autodetect]
+  -> Running build hook: [microcode]
+  -> Running build hook: [modconf]
+  -> Running build hook: [kms]
+  -> Running build hook: [keyboard]
+  -> Running build hook: [sd-vconsole]
+  -> Running build hook: [block]
+  -> Running build hook: [filesystems]
+  -> Running build hook: [fsck]
+==> Generating module dependencies
+==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux-lts.img'
+  -> Early uncompressed CPIO image generation successful
+==> Initcpio image generation successful
+Created symlink '/home/darren/.config/systemd/user/sockets.target.wants/pipewire.socket' → '/usr/lib/systemd/user/pipewire.socket'.
+Created symlink '/home/darren/.config/systemd/user/sockets.target.wants/pipewire-pulse.socket' → '/usr/lib/systemd/user/pipewire-pulse.socket'.
+Created symlink '/home/darren/.config/systemd/user/pipewire-session-manager.service' → '/usr/lib/systemd/user/wireplumber.service'.
+Created symlink '/home/darren/.config/systemd/user/pipewire.service.wants/wireplumber.service' → '/usr/lib/systemd/user/wireplumber.service'.
+Created symlink '/home/darren/.config/systemd/user/default.target.wants/pipewire.service' → '/usr/lib/systemd/user/pipewire.service'.
+
+[32m[OK](B[m Pipewire Installation and services setup complete!
