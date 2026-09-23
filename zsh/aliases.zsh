@@ -77,3 +77,12 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 # =========================================================
 
 alias stream='mpv av://v4l2:/dev/video4 --fullscreen --demuxer-lavf-o=input_format=mjpeg,framerate=30 --profile=low-latency --untimed'
+
+# =========================================================
+# Hugo
+# =========================================================
+
+if command -v systemctl >/dev/null 2>&1; then
+	alias hugo="systemctl --user restart hugo"
+	alias lanm="systemctl --user restart lan-mouse"
+fi
