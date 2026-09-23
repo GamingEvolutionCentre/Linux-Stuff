@@ -11,7 +11,8 @@ eval "$(zoxide init zsh)"
 # Oh My Zsh
 # =========================================================
 setopt PROMPT_SUBST
-source "$ZDOTDIR/agnosterzak.zsh-theme"
+source "$ZDOTDIR/GamingEvolutionCentre.zsh-theme"
+
 
 # =========================================================
 # Fastfetch
