@@ -26,8 +26,8 @@ alias mkdir='mkdir -p'
 alias rmdir='rmdir -p'
 alias github='~/Documents/GitHub'
 alias desktop='~/Desktop'
-alias downloads='~/Downloads'
-alias documents='~/Documents'
+alias d='~/Downloads'
+alias doc='~/Documents'
 alias pictures='~/Pictures'
 alias music='~/Music'
 alias videos='~/Videos'
@@ -35,6 +35,11 @@ alias c='clear'
 alias grep='rg --color=auto'
 alias diff='diff --color=auto'
 alias df='df -h'
+alias bashrc='source ~/.config/bash/.bashrc'
+alias zshrc='source ~/.config/zsh/.zshrc'
+alias logout='loginctl terminate-user "$XDG_SESSION_ID"'
+alias shutdown='systemctl poweroff'
+alias reboot='systemctl reboot'
 
 # =========================================================
 # Navigation
@@ -45,8 +50,6 @@ alias ...='cd ...'
 alias ....='cd ....'
 alias .....='cd .....'
 alias ~='cd ~'
-
-alias -- -='cd -'  # -- prevents - being parsed as a flag; cd - jumps to previous directory
 
 lf() { # zsh follow lf navigation
     tmp=$(mktemp)
