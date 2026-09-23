@@ -1,6 +1,7 @@
-// Config created by GamingEvolutionCentre https://github.com/GamingEvolutionCentre/SDDM-Themes 
-// Copyright (C) 2022-2025 GamingEvolutionCentre
-// Distributed under the BSD 3-Clause License
+// Config created by Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+// Copyright (C) 2022-2025 Keyitdev
+// Based on https://github.com/MarianArlt/sddm-sugar-dark
+// Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
@@ -38,10 +39,10 @@ ColumnLayout {
         Layout.preferredHeight: root.height / 5
         Layout.maximumHeight: root.height / 5
         Layout.leftMargin: p != "0" ? a == "left" ? -p : a == "right" ? p : 0 : 0
-        
+
         exposedSession: input.exposeSession
     }
-    
+
     SessionButton {
         id: sessionSelect
 

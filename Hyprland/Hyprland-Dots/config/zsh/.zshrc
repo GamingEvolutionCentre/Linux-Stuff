@@ -95,6 +95,12 @@ source "$ZDOTDIR/fzf.zsh"
 # Aliases
 source "$ZDOTDIR/aliases.zsh"
 
+# Functions
+source "$ZDOTDIR/function.zsh"
+
+# Lazyg configuration
+source "$ZDOTDIR/lazyg.zsh"
+
 # Custom keybindings
 source "$ZDOTDIR/bindings.zsh"
 

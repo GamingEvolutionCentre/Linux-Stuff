@@ -1,6 +1,7 @@
-// Config created by GamingEvolutionCentre https://github.com/GamingEvolutionCentre/SDDM-Themes 
-// Copyright (C) 2022-2025 GamingEvolutionCentre
-// Distributed under the BSD 3-Clause License
+// Config created by Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+// Copyright (C) 2022-2025 Keyitdev
+// Based on https://github.com/MarianArlt/sddm-sugar-dark
+// Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15
@@ -10,7 +11,7 @@ Item {
 
     height: root.font.pointSize
     width: parent.width / 2
-    
+
     property var selectedSession: selectSession.currentIndex
     property string textConstantSession
     property int loginButtonWidth
@@ -28,7 +29,7 @@ Item {
         model: sessionModel
         currentIndex: model.lastIndex
         textRole: "name"
-        
+
         Keys.onPressed: function(event) {
             if ((event.key == Qt.Key_Left || event.key == Qt.Key_Right) && !popup.opened) {
                 popup.open();
@@ -39,7 +40,7 @@ Item {
             // minus padding
             width: popupHandler.width - 20
             anchors.horizontalCenter: popupHandler.horizontalCenter
-            
+
             contentItem: Text {
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
@@ -49,7 +50,7 @@ Item {
                 font.family: root.font.family
                 color: config.DropdownTextColor
             }
-            
+
             background: Rectangle {
                 color: selectSession.highlightedIndex === index ? config.DropdownSelectedBackgroundColor : "transparent"
             }
@@ -63,7 +64,7 @@ Item {
             id: displayedItem
 
             verticalAlignment: Text.AlignVCenter
-            
+
             text: (config.TranslateSessionSelection || "Session") + " (" + selectSession.currentText + ")"
             color: config.SessionButtonTextColor
             font.pointSize: root.font.pointSize * 0.8

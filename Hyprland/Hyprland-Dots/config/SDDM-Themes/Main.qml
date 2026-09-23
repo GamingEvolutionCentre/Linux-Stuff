@@ -1,6 +1,7 @@
-// Config created by GamingEvolutionCentre https://github.com/GamingEvolutionCentre/SDDM-Themes 
-// Copyright (C) 2022-2025 GamingEvolutionCentre
-// Distributed under the BSD 3-Clause License
+// Config created by Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+// Copyright (C) 2022-2025 Keyitdev
+// Based on https://github.com/MarianArlt/sddm-sugar-dark
+// Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
@@ -27,7 +28,7 @@ Pane {
 
     font.family: config.Font
     font.pointSize: config.FontSize !== "" ? config.FontSize : parseInt(height / 80) || 13
-    
+
     focus: true
 
     property bool leftleft: config.HaveFormBackground == "true" &&
@@ -56,7 +57,7 @@ Pane {
         height: parent.height
         width: parent.width
         anchors.fill: parent
-        
+
         Rectangle {
             id: tintLayer
 
@@ -102,7 +103,7 @@ Pane {
             anchors.horizontalCenter: config.VirtualKeyboardPosition == "center" ? parent.horizontalCenter : undefined;
             anchors.right: config.VirtualKeyboardPosition == "right" ? parent.right : undefined;
             z: 1
-            
+
             state: "hidden"
             property bool keyboardActive: item ? item.active : false
 
@@ -178,7 +179,7 @@ Pane {
                 }
             ]
         }
-        
+
         Image {
             id: backgroundPlaceholderImage
 
@@ -189,10 +190,10 @@ Pane {
 
         AnimatedImage {
             id: backgroundImage
-            
+
             MediaPlayer {
                 id: player
-                
+
                 videoOutput: videoOutput
                 autoPlay: true
                 playbackRate: config.BackgroundSpeed == "" ? 1.0 : config.BackgroundSpeed
@@ -205,7 +206,7 @@ Pane {
 
             VideoOutput {
                 id: videoOutput
-                
+
                 fillMode: config.CropBackground == "true" ? VideoOutput.PreserveAspectCrop : VideoOutput.PreserveAspectFit
                 anchors.fill: parent
             }
@@ -266,14 +267,14 @@ Pane {
 
         MultiEffect {
             id: blur
-            
+
             height: parent.height
 
             // width: config.FullBlur == "true" ? parent.width : form.width
             // anchors.centerIn: config.FullBlur == "true" ? parent : form
 
             // This solves problem when FullBlur and HaveFormBackground is set to true but PartialBlur is false and FormPosition isn't center.
-            width: (config.FullBlur == "true" && config.PartialBlur == "false" && config.FormPosition != "center" ) ? parent.width - formBackground.width : config.FullBlur == "true" ? parent.width : form.width 
+            width: (config.FullBlur == "true" && config.PartialBlur == "false" && config.FormPosition != "center" ) ? parent.width - formBackground.width : config.FullBlur == "true" ? parent.width : form.width
             anchors.centerIn: config.FullBlur == "true" ? backgroundImage : form
 
             source: config.FullBlur == "true" ? backgroundImage : blurMask

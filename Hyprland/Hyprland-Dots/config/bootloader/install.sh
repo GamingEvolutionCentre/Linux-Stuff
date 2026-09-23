@@ -1,14 +1,8 @@
 #!/bin/bash
 
 #/**
-# * ChrisTechTips Grub2 Theme Installer
-# *
-# * @license MIT
-# * @author  "Chris Titus" <contact@christitus.com>
-# * @author  "Matthias Morin" <mat@tangoman.io>
-# * @version 1.0.0
-# * @link    https://youtu.be/BAyzHP1Cqb0
-# */
+# * Grub2 Theme Installer
+
 
 #THEME_DIR='/usr/share/grub/themes'
 THEME_DIR='/boot/grub/themes'

@@ -1,6 +1,6 @@
-// Config created by GamingEvolutionCentre https://github.com/GamingEvolutionCentre/SDDM-Themes 
-// Copyright (C) 2022-2025 GamingEvolutionCentre
-// Distributed under the BSD 3-Clause License
+// Config created by Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+// Copyright (C) 2022-2025 Keyitdev
+// Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
 import QtQuick 2.15
 import QtQuick.Controls 2.15
@@ -15,7 +15,7 @@ Item {
         visible: virtualKeyboard.status == Loader.Ready && config.HideVirtualKeyboard == "false"
         checkable: true
         onClicked: virtualKeyboard.switchState()
-        
+
         Keys.onReturnPressed: {
             toggle();
             virtualKeyboard.switchState();

@@ -1,6 +1,7 @@
-// Config created by GamingEvolutionCentre https://github.com/GamingEvolutionCentre/SDDM-Themes 
-// Copyright (C) 2022-2025 GamingEvolutionCentre
-// Distributed under the BSD 3-Clause License
+// Config created by Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+// Copyright (C) 2022-2025 Keyitdev
+// Based on https://github.com/MarianArlt/sddm-sugar-dark
+// Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
 import QtQuick 2.15
 import QtQuick.Layouts 1.15
@@ -19,7 +20,7 @@ RowLayout {
 
     Repeater {
         id: systemButtons
-        
+
         model: [shutdown, reboot, suspend, hibernate]
 
         RoundButton {
@@ -36,7 +37,7 @@ RowLayout {
             display: AbstractButton.TextUnderIcon
             visible: config.HideSystemButtons != "true" && (config.BypassSystemButtonsChecks == "true" ? 1 : modelData[2])
             hoverEnabled: true
-            
+
             background: Rectangle {
                 height: 2
                 width: parent.width
@@ -50,7 +51,7 @@ RowLayout {
                 index == 0 ? sddm.powerOff() : index == 1 ? sddm.reboot() : index == 2 ? sddm.suspend() : sddm.hibernate()
             }
             KeyNavigation.left: index > 0 ? parent.children[index-1] : null
-            
+
             states: [
                 State {
                     name: "pressed"

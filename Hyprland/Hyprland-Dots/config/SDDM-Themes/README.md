@@ -2,10 +2,9 @@
 
 # SDDM-Themes:
 
-[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/forks)
-[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/issues)
-[![GitHub License](https://img.shields.io/github/license/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-Bot/license)
+[![GitHub Stars](https://img.shields.io/github/stars/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes/stargazers)
+
+[![GitHub Issues](https://img.shields.io/github/issues/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes?logo=github&logoColor=black)](https://github.com/GamingEvolutionCentre/Gaming-Evolution-Centre-SDDM-Themes/issues)
 
 </div>
 
@@ -19,8 +18,8 @@ All themes were created for all resolutions.
 <br>
 
 # 🚨 Install 🚨
-```
-"curl -fsSL https://github.com/GamingEvolutionCentre/SDDM-Themes | sh
+```bash
+curl -fsSL https://github.com/GamingEvolutionCentre/SDDM-Themes | sh
 
 ```
 <br>
@@ -55,8 +54,7 @@ sudo apt install SDDM-Themes
 You can select theme by editing [metadata](./metadata.desktop) (`/usr/share/sddm/themes/sddm-theme/metadata.desktop`).
 
 Just edit this line:
-
-```
+```bash
 ConfigFile=Themes/cyberpunk.conf
 ```
 All available configs are in [Themes](./Themes/) directory.
