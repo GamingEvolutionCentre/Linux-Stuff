@@ -205,8 +205,8 @@ hlp() {
 	fi
 }
 
-# alias to show the date
-alias da='date "+%Y-%m-%d %A %T %Z"'
+# alias to show the date in UK format with a 12-hour clock
+alias da='date "+%d/%m/%Y %A %I:%M:%S %p %Z"'
 
 # Alias's to modified commands
 alias cp='cp -i'
@@ -867,7 +867,9 @@ fi
 
 export PATH
 
-
+if [[ $- == *i* ]] && command -v starship >/dev/null 2>&1; then
+	eval "$(starship init bash)"
+fi
 if [[ $- == *i* ]] && command -v zoxide >/dev/null 2>&1; then
 	eval "$(zoxide init bash)"
 fi
